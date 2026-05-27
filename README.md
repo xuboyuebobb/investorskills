@@ -1,110 +1,116 @@
+![Investor Skills - mental models from history's greatest investors](assets/social-poster.png)
+
 # Investor Skills
 
-![Investor Skills social poster](assets/social-poster.svg)
+Mental models from top investors, translated into practical AI-agent skills.
 
-Open-source mental models from top investors, translated into practical AI-agent skills.
+[GitHub](https://github.com/xuboyuebobb/investorskills) · Skills · Contributing · FAQ · License
 
-Investor Skills is a public knowledge repo for collecting how great investors think, decide, size risk, scan markets, and act under uncertainty. The goal is not to archive quotes. The goal is to turn durable investing judgment into reusable skills that humans can study and Questflow agents can execute.
+Investor Skills is an open-source library for turning durable investing judgment into portable `SKILL.md` files. The repo collects how great investors think, filter opportunities, size risk, and act under uncertainty, then structures those patterns so humans can study them and AI agents can use them.
 
-Questflow will use this repo as one source of out-of-box skills for AI agents distilled from top investors.
+Questflow uses this repo as a public source of out-of-box skills for AI agents distilled from top investors.
 
-## Why This Exists
+## Why
 
-Most investing content is passive:
+Most investing content is passive: books, interviews, letters, podcasts, clips, and commentary.
 
-- interviews
-- letters
-- podcasts
-- books
-- market commentary
-
-But the useful part is operational:
+The useful part is operational:
 
 - What does this investor notice before others?
-- What questions do they repeatedly ask?
+- What questions do they ask every time?
 - What data do they trust?
 - What do they ignore?
-- When do they act?
-- How do they size conviction?
+- What makes them act?
 - What would their agent scan for every day?
 
-This repo exists to extract those mental models into a format that can become software.
+Investor Skills exists to extract those decision patterns into software-shaped instructions.
 
-## What Belongs Here
+## Installing
 
-Each investor skill should capture a repeatable decision pattern from a top investor.
+Install all skills:
 
-Good examples:
+```bash
+npx skills add https://github.com/xuboyuebobb/investorskills
+```
 
-- Warren Buffett: business quality, moat durability, capital allocation, margin of safety
-- Charlie Munger: inversion, incentives, multidisciplinary filters, avoiding stupidity
-- Stanley Druckenmiller: liquidity, narrative inflection, asymmetric macro bets
-- George Soros: reflexivity, crowd feedback loops, boom-bust structure
-- Howard Marks: cycle positioning, risk temperature, second-level thinking
-- Ray Dalio: regime mapping, debt cycles, portfolio balance
-- Peter Lynch: consumer observation, simple growth stories, earnings follow-through
-- Li Lu: owner mindset, durable compounding, downside-first underwriting
-- Joel Greenblatt: special situations, return on capital, valuation discipline
+Install a single skill by install name:
+
+```bash
+npx skills add https://github.com/xuboyuebobb/investorskills --skill "value-investing"
+```
+
+You can also copy any `SKILL.md` into your project or paste it into ChatGPT, Codex, Cursor, Claude Code, or another agent conversation.
+
+## Skills
+
+Each skill does one job. The `Install name` column is the value passed to `--skill`.
+
+| Skill folder | Install name | Description |
+| --- | --- | --- |
+| `value-investing` | `value-investing` | Buffett/Munger-style business-quality underwriting: durable moat, owner earnings, management quality, margin of safety, and downside-first risk review. |
+
+## Which Skill Should I Use?
+
+- Use `value-investing` when you want to underwrite a business, compare quality compounders, review a stock thesis, or decide what needs to be true before buying.
+- Future skills will cover cycle positioning, macro reflexivity, special situations, growth investing, consumer observation, and risk-temperature scanning.
 
 ## Skill Format
 
-Use this structure for each skill:
+Each investor skill should be practical, sourced, and executable.
 
 ```md
-# Investor Name - Skill Name
+---
+name: skill-install-name
+description: Clear trigger rule for when an agent should use this skill.
+---
+
+# Skill Name
 
 ## Core Mental Model
-One clear idea the investor uses to see markets differently.
+The repeatable judgment pattern.
 
 ## When To Use
-The market condition, asset type, or decision context where this model is useful.
+The market condition, asset type, or decision context.
 
 ## Inputs
-Data, signals, documents, or observations needed.
+Data, filings, prices, transcripts, KPIs, or observations needed.
 
 ## Process
-Step-by-step reasoning pattern.
+Step-by-step reasoning workflow.
 
 ## Output
-What the skill should produce: ranking, watchlist, signal, thesis, warning, trade idea, or risk note.
+The artifact the agent should produce.
 
 ## Failure Modes
-Where this mental model breaks or gets overused.
+Where the model breaks, gets overused, or creates false confidence.
 
 ## Source Notes
-Books, letters, interviews, talks, filings, or credible references.
+Primary or credible secondary sources.
 ```
 
 ## Questflow Direction
 
-Questflow is building a decentralized agentic brokerage where users can trade and invest through AI agents distilled from top investors.
+Questflow is a decentralized agentic brokerage where users can trade and invest through AI agents distilled from top investors.
 
-This repo supports that product direction in three ways:
+This repo supports Questflow in three ways:
 
-1. **Distribution** - public investor mental models are useful on their own and can attract builders, investors, and curious users.
-2. **Product supply** - the best entries can become out-of-box Questflow agent skills.
-3. **Trust** - transparent source notes make the skill library easier to inspect, debate, and improve.
+- **Distribution**: investor mental models are useful public content on their own.
+- **Product supply**: the best skills can become out-of-box Questflow agent skills.
+- **Trust**: visible source notes make the skill library easier to inspect, debate, and improve.
 
 Questflow's position: we are the brain, not the vault. Users keep custody with their broker or wallet. Questflow focuses on market reasoning, proactive scanning, and conversation-driven execution.
 
 ## Roadmap
 
-- Add first 10 investor mental model entries.
-- Standardize the skill schema.
-- Tag skills by asset class, time horizon, signal type, and risk style.
-- Convert the best mental models into executable Questflow agent skills.
-- Build public examples of daily scans generated from these skills.
+- Add the first 10 investor mental model skills.
+- Standardize tags by asset class, time horizon, signal type, and risk style.
+- Add examples for daily scans and thesis reviews.
+- Convert the strongest skills into Questflow-ready agent workflows.
+- Build a public index for discovering skills by investor and investing style.
 
 ## Contributing
 
-Contributions should be practical, sourced, and operational.
-
-Please avoid:
-
-- generic biographies
-- unsourced quotes
-- motivational summaries
-- vague investing advice
+Contributions should make investing judgment more operational.
 
 Prefer:
 
@@ -114,6 +120,32 @@ Prefer:
 - primary or credible secondary sources
 - examples that could become an AI-agent workflow
 
+Avoid:
+
+- generic biographies
+- unsourced quotes
+- motivational summaries
+- vague investing advice
+- hindsight-only trade stories
+
+## FAQ
+
+**Is this financial advice?**
+
+No. These are research and reasoning skills. They are not recommendations to buy, sell, or hold securities.
+
+**What is `SKILL.md`?**
+
+A portable instruction file agents can load automatically or that users can paste directly into an AI coding/research environment.
+
+**How is this different from investor quote collections?**
+
+This repo extracts process: inputs, filters, decision rules, outputs, and failure modes.
+
+**Why open source this?**
+
+Because public mental-model content can attract investors, builders, and users while also creating a supply of Questflow-ready agent skills.
+
 ## License
 
-To be decided.
+MIT License.
