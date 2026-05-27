@@ -1,5 +1,7 @@
 # Investor Skills
 
+![Investor Skills social poster](assets/social-poster.svg)
+
 Open-source mental models from top investors, translated into practical AI-agent skills.
 
 Investor Skills is a public knowledge repo for collecting how great investors think, decide, size risk, scan markets, and act under uncertainty. The goal is not to archive quotes. The goal is to turn durable investing judgment into reusable skills that humans can study and Questflow agents can execute.
