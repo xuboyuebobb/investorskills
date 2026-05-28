@@ -1,14 +1,133 @@
-![Investor Skills - mental models from history's greatest investors](assets/social-poster.png)
-
 # Investor Skills
 
-Mental models from top investors, translated into practical AI-agent skills.
+Mental models from history's greatest investors, structured for AI agents.
 
-[Website](https://fundsarena.ai) · [GitHub](https://github.com/xuboyuebobb/investorskills) · Skills · Contributing · FAQ · License
+[INVEST.md Spec](docs/spec.md) · [Examples](examples/) · [Skills](skills/) · [Contributing](#contributing)
 
-Investor Skills is an open-source library for turning durable investing judgment into portable `SKILL.md` files. The repo collects how great investors think, filter opportunities, size risk, and act under uncertainty, then structures those patterns so humans can study them and AI agents can use them.
+Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI agents can apply them.
 
-Questflow uses this repo as a public source of out-of-box skills for AI agents distilled from top investors.
+## Two Formats
+
+### INVEST.md — Investment Decision Systems
+
+[INVEST.md](docs/spec.md) is a format specification for describing an investment decision system to AI agents. Like [DESIGN.md](https://github.com/google-labs-code/design.md) gives agents a persistent understanding of a visual identity, INVEST.md gives agents a persistent understanding of an investment identity.
+
+An INVEST.md file combines:
+
+- **YAML tokens** (machine-readable): signals, filters, sizing rules, risk parameters, key metrics
+- **Markdown prose** (human-readable): philosophy, analysis process, execution rules, behavioral guardrails
+
+```yaml
+---
+name: Buffett/Munger Value Investing
+style: value+quality
+timeHorizon: 5-10 years
+signals:
+  fundamental:
+    roic:
+      weight: high
+      direction: higher-is-better
+      threshold: "> 15%"
+filters:
+  durableMoat: required
+  consistentFCF: required
+sizing:
+  maxPosition: 25%
+  maxPortfolio: 15
+risk:
+  marginOfSafety: 30%
+  stopLoss: none
+---
+```
+
+See the [full specification](docs/spec.md) and [example](examples/buffett.invest.md).
+
+### SKILL.md — Agent Skills
+
+Skills are portable agent instructions that define **when** and **why** to apply an investment model. Each skill lives in `skills/<name>/SKILL.md` and can reference an INVEST.md file for the structured decision parameters.
+
+```yaml
+---
+name: value-investing
+description: Use when evaluating a business through Buffett/Munger-style value investing.
+invest: ./buffett.invest.md
+---
+```
+
+See [existing skills](skills/).
+
+## Repo Structure
+
+```
+investorskills/
+├── docs/
+│   └── spec.md              # INVEST.md format specification
+├── examples/
+│   └── buffett.invest.md    # Example: Buffett/Munger value investing
+├── skills/
+│   └── value-investing/     # Agent skill: value investing
+│       └── SKILL.md
+├── README.md
+└── LICENSE
+```
+
+## Quick Start
+
+### Use an INVEST.md directly
+
+Copy any `.invest.md` file into your project. AI agents that understand the [INVEST.md spec](docs/spec.md) can apply the investment model to evaluate opportunities.
+
+### Install as a skill
+
+```bash
+# Install all skills
+npx skills add https://github.com/xuboyuebobb/investorskills
+
+# Install a single skill
+npx skills add https://github.com/xuboyuebobb/investorskills --skill "value-investing"
+```
+
+### Use standalone
+
+Copy any `SKILL.md` or `INVEST.md` into ChatGPT, Codex, Cursor, Claude, or another agent conversation.
+
+## Available Models
+
+| File | Investor | Style | Description |
+|---|---|---|---|
+| [`buffett.invest.md`](examples/buffett.invest.md) | Buffett, Munger, Graham | value+quality | Long-term ownership of durable businesses bought below intrinsic value |
+
+## Available Skills
+
+| Skill | Install name | Description |
+|---|---|---|
+| [`value-investing`](skills/value-investing/) | `value-investing` | Buffett/Munger-style business-quality underwriting: durable moat, owner earnings, management quality, margin of safety, and downside-first risk review |
+
+## Contributing
+
+### Adding an INVEST.md model
+
+1. Create `<name>.invest.md` in `examples/`
+2. Follow the [specification](docs/spec.md)
+3. Include YAML frontmatter with tokens and markdown body with rationale
+4. Add an entry to the Available Models table above
+
+### Adding a skill
+
+1. Create `skills/<skill-name>/SKILL.md`
+2. Include frontmatter with name, description, and optional `invest` reference
+3. Define when to use, inputs, process, and output format
+4. Add an entry to the Available Skills table above
+
+### Planned models
+
+- `lynch.invest.md` — Peter Lynch: invest in what you know, PEG ratio, stock categories
+- `dalio.invest.md` — Ray Dalio: all-weather, risk parity, macro regime identification
+- `soros.invest.md` — George Soros: reflexivity, macro, asymmetric bets
+- `simons.invest.md` — Jim Simons: quantitative, statistical arbitrage, signal processing
+- `greenblatt.invest.md` — Joel Greenblatt: magic formula, special situations, spinoffs
+- `marks.invest.md` — Howard Marks: second-level thinking, cycles, risk assessment
+- `templeton.invest.md` — John Templeton: contrarian, global, maximum pessimism
 
 ## Why
 
@@ -23,129 +142,16 @@ The useful part is operational:
 - What makes them act?
 - What would their agent scan for every day?
 
-Investor Skills exists to extract those decision patterns into software-shaped instructions.
+Investor Skills extracts those decision patterns into software-shaped instructions.
 
-## Installing
+## Relationship to DESIGN.md
 
-Install all skills:
+[DESIGN.md](https://github.com/google-labs-code/design.md) gives AI agents a persistent understanding of a **visual identity** — colors, typography, layout, components.
 
-```bash
-npx skills add https://github.com/xuboyuebobb/investorskills
-```
+INVEST.md gives AI agents a persistent understanding of an **investment identity** — signals, filters, analysis, sizing, risk.
 
-Install a single skill by install name:
-
-```bash
-npx skills add https://github.com/xuboyuebobb/investorskills --skill "value-investing"
-```
-
-You can also copy any `SKILL.md` into your project or paste it into ChatGPT, Codex, Cursor, Claude Code, or another agent conversation.
-
-## Skills
-
-Each skill does one job. The `Install name` column is the value passed to `--skill`.
-
-| Skill folder | Install name | Description |
-| --- | --- | --- |
-| `value-investing` | `value-investing` | Buffett/Munger-style business-quality underwriting: durable moat, owner earnings, management quality, margin of safety, and downside-first risk review. |
-
-## Which Skill Should I Use?
-
-- Use `value-investing` when you want to underwrite a business, compare quality compounders, review a stock thesis, or decide what needs to be true before buying.
-- Future skills will cover cycle positioning, macro reflexivity, special situations, growth investing, consumer observation, and risk-temperature scanning.
-
-## Skill Format
-
-Each investor skill should be practical, sourced, and executable.
-
-```md
----
-name: skill-install-name
-description: Clear trigger rule for when an agent should use this skill.
----
-
-# Skill Name
-
-## Core Mental Model
-The repeatable judgment pattern.
-
-## When To Use
-The market condition, asset type, or decision context.
-
-## Inputs
-Data, filings, prices, transcripts, KPIs, or observations needed.
-
-## Process
-Step-by-step reasoning workflow.
-
-## Output
-The artifact the agent should produce.
-
-## Failure Modes
-Where the model breaks, gets overused, or creates false confidence.
-
-## Source Notes
-Primary or credible secondary sources.
-```
-
-## Questflow Direction
-
-Questflow is a decentralized agentic brokerage where users can trade and invest through AI agents distilled from top investors.
-
-This repo supports Questflow in three ways:
-
-- **Distribution**: investor mental models are useful public content on their own.
-- **Product supply**: the best skills can become out-of-box Questflow agent skills.
-- **Trust**: visible source notes make the skill library easier to inspect, debate, and improve.
-
-Questflow's position: we are the brain, not the vault. Users keep custody with their broker or wallet. Questflow focuses on market reasoning, proactive scanning, and conversation-driven execution.
-
-## Roadmap
-
-- Add the first 10 investor mental model skills.
-- Standardize tags by asset class, time horizon, signal type, and risk style.
-- Add examples for daily scans and thesis reviews.
-- Convert the strongest skills into Questflow-ready agent workflows.
-- Build a public index for discovering skills by investor and investing style.
-
-## Contributing
-
-Contributions should make investing judgment more operational.
-
-Prefer:
-
-- repeatable decision frameworks
-- concrete input signals
-- clear failure modes
-- primary or credible secondary sources
-- examples that could become an AI-agent workflow
-
-Avoid:
-
-- generic biographies
-- unsourced quotes
-- motivational summaries
-- vague investing advice
-- hindsight-only trade stories
-
-## FAQ
-
-**Is this financial advice?**
-
-No. These are research and reasoning skills. They are not recommendations to buy, sell, or hold securities.
-
-**What is `SKILL.md`?**
-
-A portable instruction file agents can load automatically or that users can paste directly into an AI coding/research environment.
-
-**How is this different from investor quote collections?**
-
-This repo extracts process: inputs, filters, decision rules, outputs, and failure modes.
-
-**Why open source this?**
-
-Because public mental-model content can attract investors, builders, and users while also creating a supply of Questflow-ready agent skills.
+Both use the same pattern: YAML tokens (machine-readable parameters) + markdown prose (human-readable rationale). Both are plain-text, version-controllable, and agent-portable.
 
 ## License
 
-MIT License.
+MIT
