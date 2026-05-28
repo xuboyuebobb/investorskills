@@ -1,3 +1,5 @@
+![Investor Skills - mental models from history's greatest investors](assets/social-poster.png)
+
 # Investor Skills
 
 Mental models from history's greatest investors, structured for AI agents.
