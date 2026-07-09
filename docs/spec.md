@@ -2,7 +2,9 @@
 
 <!-- version: alpha -->
 
-INVEST.md is a self-contained, plain-text representation of an investment decision system. It defines how an investor thinks, filters, evaluates, sizes, and acts — enabling AI agents to apply that investor's judgment framework consistently across opportunities.
+INVEST.md is an optional investment-system schema for Investor Skills. It is a self-contained, plain-text representation of how an investor thinks, filters, evaluates, sizes, and acts — enabling AI finance agents to apply that investor's judgment framework consistently across opportunities.
+
+The primary package is the Investor Skill (`SKILL.md`). Use a separate `INVEST.md` or `invest.md` file only when the investment system is large enough to benefit from a dedicated schema file.
 
 An INVEST.md file contains two parts: a YAML frontmatter with machine-readable investment tokens, and a markdown body with human-readable investment rationale. The tokens are the normative parameters; the prose provides context for how to apply them.
 
@@ -40,18 +42,36 @@ Example:
 ---
 version: alpha
 name: Buffett/Munger Value Investing
+slug: buffett-munger-value
+aliases:
+  - Buffett Value Compounder
+  - Quality Value
+description: Long-term ownership of durable businesses bought below intrinsic value
 investor: Warren Buffett, Charlie Munger
 style: value
 timeHorizon: 5-10 years
+decisionCadence: quarterly
+assetClasses:
+  - public equities
 circleOfCompetence:
   - consumer brands
   - insurance
   - financial services
   - utilities
+universe:
+  geographies:
+    - United States
+  marketCap: large-cap
+  liquidity: high
+marketRegime:
+  preferred: any
+  avoid: none
+  posture: patient
 signals:
   fundamental:
     ownerEarnings:
       weight: high
+      frequency: quarterly
       description: Net income + D&A - capex
     roic:
       weight: high
@@ -84,12 +104,24 @@ risk:
 ```yaml
 version: <string>                    # optional, current: "alpha"
 name: <string>                       # investment model name
+slug: <string>                       # optional stable install/file identifier
+aliases:                             # optional display names or common strategy names
+  - <string>
 description: <string>                # optional one-liner
 investor: <string>                   # investor(s) this model is based on
 style: <Style>                       # investment style classification
 timeHorizon: <TimeHorizon>           # expected holding period
+decisionCadence: <DecisionCadence>    # how often the model should actively reassess
+assetClasses:                        # optional asset classes the model can analyze
+  - <AssetClass>
 circleOfCompetence:                  # optional, domains the model covers
   - <string>
+universe:                            # optional investable universe constraints
+  <param-name>: <string | list>
+marketRegime:                        # optional preferred/avoided market conditions
+  preferred: <string>
+  avoid: <string>
+  posture: <string>
 signals:                             # what to watch and how much it matters
   <category>:
     <signal-name>: <Signal>
@@ -104,13 +136,23 @@ metrics:                             # key metrics to track on existing holdings
 playbooks:                           # named decision playbooks
   <playbook-name>:
     <param-name>: <string | token reference>
+sources:                             # primary sources used to build the model
+  - <string>
 ```
 
 ### Token Types
 
-**Style**: One of: `value`, `growth`, `momentum`, `macro`, `quant`, `event`, `income`, `contrarian`, `quality`, `blend`. Multiple styles may be combined with `+` (e.g., `value+quality`).
+**Style**: One of: `value`, `growth`, `momentum`, `trend-following`, `breakout`, `macro`, `reflexivity`, `cycle`, `credit`, `quant`, `event`, `income`, `contrarian`, `quality`, `second-level-thinking`, `mental-models`, `blend`. Multiple styles may be combined with `+` (e.g., `value+quality`).
 
 **TimeHorizon**: A string describing the expected holding period. Common values: `intraday`, `days`, `weeks`, `months`, `1-3 years`, `3-5 years`, `5-10 years`, `10+ years`, `forever`.
+
+**DecisionCadence**: A string describing how often the model should actively reassess new opportunities or existing positions. Common values: `intraday`, `daily`, `weekly`, `monthly`, `quarterly`, `annual`, `event-driven`.
+
+**AssetClass**: A string describing a supported investable class. Common values: `public equities`, `private equities`, `crypto`, `commodities`, `rates`, `credit`, `fx`, `prediction markets`, `real assets`, `multi-asset`.
+
+**Universe**: A map of constraints that define what the model is allowed to evaluate. Common keys: `geographies`, `sectors`, `instruments`, `marketCap`, `liquidity`, `exclusions`, `dataRequirements`.
+
+**MarketRegime**: A map describing the conditions in which the model is most useful. Common keys: `preferred`, `avoid`, `posture`, `riskOn`, `riskOff`, `cyclePhase`, `trendRequirement`.
 
 **Signal**: An object describing an investment signal.
 
@@ -119,6 +161,7 @@ playbooks:                           # named decision playbooks
 | `weight` | `high` \| `medium` \| `low` | yes | How much this signal influences the decision |
 | `direction` | `higher-is-better` \| `lower-is-better` \| `stable-is-better` \| `trend-up` \| `trend-down` | no | Preferred direction |
 | `threshold` | string | no | A specific threshold value or range |
+| `frequency` | `intraday` \| `daily` \| `weekly` \| `monthly` \| `quarterly` \| `annual` \| `event-driven` | no | How often to check this signal |
 | `source` | string | no | Where to find this data |
 | `description` | string | no | What this signal means |
 
@@ -156,15 +199,17 @@ Every INVEST.md follows the same structure. Sections can be omitted if not relev
 ## Section Order
 
 1. **Philosophy** (also: "Worldview", "Core Beliefs")
-2. **Signals** (also: "What To Watch")
-3. **Filters** (also: "Screening Criteria", "Gates")
-4. **Analysis** (also: "Evaluation Process", "Due Diligence")
-5. **Position Sizing** (also: "Sizing")
-6. **Risk Management** (also: "Risk")
-7. **Execution** (also: "Entry & Exit", "Trading Rules")
-8. **Monitoring** (also: "Post-Purchase", "Ongoing Review")
-9. **Playbooks** (also: "Decision Templates")
-10. **Do's and Don'ts** (also: "Behavioral Guardrails")
+2. **Universe & Regime** (also: "Where It Works", "Market Conditions")
+3. **Signals** (also: "What To Watch")
+4. **Filters** (also: "Screening Criteria", "Gates")
+5. **Analysis** (also: "Evaluation Process", "Due Diligence")
+6. **Position Sizing** (also: "Sizing")
+7. **Risk Management** (also: "Risk")
+8. **Execution** (also: "Entry & Exit", "Trading Rules")
+9. **Monitoring** (also: "Post-Purchase", "Ongoing Review")
+10. **Playbooks** (also: "Decision Templates")
+11. **Do's and Don'ts** (also: "Behavioral Guardrails")
+12. **Source Notes** (also: "Sources", "References")
 
 ---
 
@@ -194,6 +239,54 @@ than many mediocre ones.
 ### Design Tokens
 
 The `style`, `timeHorizon`, and `circleOfCompetence` tokens in the frontmatter should reflect the philosophy described in this section.
+
+---
+
+## Universe & Regime
+
+Also known as "Where It Works" or "Market Conditions".
+
+This section defines the investable universe and the market conditions where the model should be used. It prevents agents from applying a strategy outside its natural habitat: using Buffett-style ownership analysis on intraday futures, using Livermore-style breakout rules on illiquid microcaps, or using Howard Marks cycle judgment without identifying the cycle phase.
+
+Each Universe & Regime section should explain:
+- Which asset classes and instruments are in scope
+- Which geographies, sectors, market caps, or liquidity profiles are acceptable
+- Which market regimes are preferred, dangerous, or irrelevant
+- How the model should change posture when the regime changes
+
+Example:
+
+```markdown
+## Universe & Regime
+
+- **Asset classes**: Public equities only.
+- **Universe**: Liquid US-listed large-cap and mid-cap companies with 10+ years of operating history.
+- **Preferred regime**: Any regime, provided the business is understandable and price is below conservative intrinsic value.
+- **Avoid**: Businesses with missing primary filings, fragile balance sheets, or economics dominated by commodity price speculation.
+- **Posture**: Patient. Cash is acceptable when no opportunity clears the filters.
+```
+
+### Design Tokens
+
+The `assetClasses`, `universe`, `marketRegime`, and `decisionCadence` tokens in the frontmatter should reflect the scope and market-condition rules described in this section.
+
+```yaml
+decisionCadence: quarterly
+assetClasses:
+  - public equities
+universe:
+  geographies:
+    - United States
+  marketCap: large-cap
+  liquidity: high
+  dataRequirements:
+    - 10-K
+    - 10-Q
+marketRegime:
+  preferred: any
+  avoid: none
+  posture: patient
+```
 
 ---
 
@@ -648,23 +741,56 @@ Example:
 
 ---
 
+## Source Notes
+
+Also known as "Sources" or "References".
+
+This section lists the primary materials used to distill the model and helps agents separate well-sourced rules from loose internet summaries. Prefer original books, letters, interviews, transcripts, filings, and fund memos over secondary blog posts.
+
+Example:
+
+```markdown
+## Source Notes
+
+This model is distilled from:
+
+- Warren Buffett shareholder letters
+- Berkshire Hathaway annual meeting transcripts
+- Charlie Munger, Poor Charlie's Almanack
+
+When attributing a specific rule or quote, cite the exact source.
+```
+
+### Design Tokens
+
+The `sources` token in the frontmatter should include the core references used to construct the model.
+
+```yaml
+sources:
+  - Warren Buffett shareholder letters
+  - Berkshire Hathaway annual meeting transcripts
+  - Charlie Munger, Poor Charlie's Almanack
+```
+
+---
+
 # Recommended Token Names (Non-Normative)
 
 The following names are commonly used across investment models. They are not required but are provided as guidance for consistency.
 
 **Signals (fundamental):** `ownerEarnings`, `roic`, `roe`, `grossMargin`, `operatingMargin`, `fcfYield`, `revenueGrowth`, `debtToEquity`, `priceToEarnings`, `priceToBook`, `evToEbitda`
 
-**Signals (technical):** `movingAverage`, `rsi`, `volume`, `priceToBook`, `momentum`, `support`, `resistance`
+**Signals (technical):** `movingAverage`, `relativeStrength`, `rsi`, `volume`, `momentum`, `support`, `resistance`, `baseQuality`, `breakoutLevel`
 
-**Signals (sentiment):** `insiderBuying`, `shortInterest`, `analystConsensus`, `fundFlows`
+**Signals (macro):** `yieldCurve`, `creditSpread`, `vix`, `inflationRate`, `gdpGrowth`, `liquidityCycle`, `policyShift`, `currencyTrend`
 
-**Signals (macro):** `yieldCurve`, `creditSpread`, `vix`, `inflationRate`, `gdpGrowth`
+**Signals (sentiment/positioning):** `insiderBuying`, `shortInterest`, `analystConsensus`, `fundFlows`, `crowding`, `narrativeConsensus`, `marketPsychology`
 
-**Filters:** `understandable`, `durableMoat`, `consistentFCF`, `debtLimit`, `managementIntegrity`, `minRevenue`, `minMargin`, `circleOfCompetence`
+**Filters:** `understandable`, `durableMoat`, `consistentFCF`, `debtLimit`, `managementIntegrity`, `minRevenue`, `minMargin`, `circleOfCompetence`, `trendConfirmed`, `volumeConfirmed`, `baseConstructive`, `cycleFavorable`
 
-**Sizing:** `maxPosition`, `maxPortfolio`, `convictionThreshold`, `scalingRule`, `cashReserve`, `kellyFraction`
+**Sizing:** `maxPosition`, `maxPortfolio`, `convictionThreshold`, `scalingRule`, `pyramidRule`, `cashReserve`, `kellyFraction`, `riskPerTrade`
 
-**Risk:** `marginOfSafety`, `maxDrawdown`, `stopLoss`, `maxCorrelatedPositions`, `leverage`, `varLimit`
+**Risk:** `marginOfSafety`, `maxDrawdown`, `stopLoss`, `trailingStop`, `maxCorrelatedPositions`, `leverage`, `varLimit`, `correlationLimit`, `positionCutRule`
 
 **Metrics:** `revenueGrowth`, `grossMargin`, `operatingMargin`, `freeCashFlow`, `roic`, `shareCount`, `debtMaturity`
 
@@ -699,21 +825,25 @@ INVEST.md files should follow these naming conventions:
 
 ---
 
-# Relationship to Skills
+# Relationship to Investor Skills
 
-An INVEST.md file can be used standalone or paired with a `SKILL.md` file. When paired:
+The primary product concept is the **Investor Skill**: a `SKILL.md` package that gives an AI finance agent a portable judgment system.
 
-- `INVEST.md` defines the **what** and **how**: tokens, parameters, process
-- `SKILL.md` defines the **when** and **why**: trigger conditions, use cases, agent integration
+`INVEST.md` is an optional investment-system schema used inside an investor skill. It is useful when the judgment system is large enough to keep separate from the skill instructions.
 
-A skill may reference an INVEST.md file:
+When separated:
+
+- `SKILL.md` is the entry point: trigger conditions, use cases, inputs, process, output format, and guardrails
+- `INVEST.md` or `invest.md` is the supporting schema: worldview, universe, regime, signals, filters, sizing, risk, monitoring, and playbooks
+
+A skill may reference an investment schema file:
 
 ```yaml
 ---
-name: value-investing
-description: Use when evaluating a business through Buffett/Munger-style value investing.
-invest: ./buffett.invest.md
+name: buffett
+description: Use when evaluating a business through Buffett-style ownership, moat, owner earnings, and margin-of-safety judgment.
+invest: ./invest.md
 ---
 ```
 
-This allows agents to load the structured tokens from INVEST.md while using the skill's trigger logic to decide when to apply them.
+For simpler skills, the investment schema can be embedded directly in `SKILL.md` instead of stored as a separate file.
