@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Pass / Too Hard
     requiredSections: business,moat,management,valuation,marginOfSafety,risk,invalidation
 sources:
+  - docs/reading-list.md
   - Warren Buffett shareholder letters
   - Berkshire Hathaway annual meeting transcripts
   - Benjamin Graham, The Intelligent Investor
@@ -223,6 +224,14 @@ Study these cases for moat durability, owner earnings, management quality, and p
 - Don't confuse cheap with good.
 - Don't sell only because price falls.
 - Don't use leverage.
+
+
+
+## Reading List
+
+- Berkshire letters: https://www.berkshirehathaway.com/letters/letters.html
+- Superinvestors essay: https://www8.gsb.columbia.edu/articles/columbia-business/superinvestors
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

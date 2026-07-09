@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Aggressive Buy / Probe / Wait / Avoid / Short
     requiredSections: panic,capitalStructure,backstop,recoveryValue,downside,catalyst
 sources:
+  - docs/reading-list.md
   - Public David Tepper and Appaloosa interviews
   - Public case studies of Appaloosa crisis investing
 ---
@@ -207,6 +208,12 @@ Study these cases for capital structure, policy support, panic price, and recove
 - Don't assume common equity survives.
 - Don't ignore dilution.
 - Don't buy distress with no backstop.
+
+
+
+## Reading List
+
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -177,6 +177,11 @@ When evaluating a new opportunity, produce:
 - Don't <common misuse of this investor model>
 - Don't <behavior that violates the strategy>
 
+## Reading List
+
+- <Primary essay, letter, memo, report, or book with link when available>
+- Shared reading list: ../../docs/reading-list.md
+
 ## Source Notes
 
 This model is distilled from:

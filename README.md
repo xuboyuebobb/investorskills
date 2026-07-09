@@ -6,7 +6,7 @@
 
 Run these investor skills inside [Questflow](https://questflow.ai), the AI Finance Agent for financial markets.
 
-[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
+[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Reading List](docs/reading-list.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
 
 Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI finance agents can apply them.
 
@@ -112,7 +112,8 @@ The optimized template adds fields that matter for real investor agents: `assetC
 ```
 investorskills/
 ├── docs/
-│   └── spec.md              # Optional investment schema specification
+│   ├── spec.md              # Optional investment schema specification
+│   └── reading-list.md      # Primary sources and classic essays by skill
 ├── examples/
 │   └── buffett.invest.md    # Standalone investment-system example
 ├── templates/
@@ -122,6 +123,8 @@ investorskills/
 │   └── <skill-name>/        # Agent skill package
 │       ├── SKILL.md
 │       └── invest.md        # Optional, referenced by SKILL.md
+├── assets/
+│   └── social-poster.png
 ├── README.md
 └── LICENSE
 ```
@@ -202,6 +205,14 @@ Copy any `SKILL.md` into ChatGPT, Codex, Cursor, Claude, or another agent conver
 | [`templeton-max-pessimism`](skills/templeton-max-pessimism/) | John Templeton | Global contrarian value, maximum pessimism buying, crisis recovery, and cross-border opportunity search |
 | [`hohn-concentrated-quality`](skills/hohn-concentrated-quality/) | Chris Hohn / TCI | Concentrated quality compounders, pricing power, high ROIC, engagement, and long-duration ownership |
 | [`watsa-insurance-float`](skills/watsa-insurance-float/) | Prem Watsa / Fairfax | Insurance float, contrarian value allocation, special situations, and downside-focused capital compounding |
+| [`muddy-waters-forensic`](skills/muddy-waters-forensic/) | Muddy Waters / Carson Block | Forensic shorts, channel checks, related-party webs, cash verification, and evidence-based short reports |
+| [`hindenburg-investigation`](skills/hindenburg-investigation/) | Hindenburg Research | Investigative short reports, promoter networks, disclosure gaps, and catalyst-driven evidence chains |
+| [`spruce-point-accounting-short`](skills/spruce-point-accounting-short/) | Spruce Point Capital | Accounting-quality shorts, cash conversion, aggressive non-GAAP, acquisition accounting, and governance red flags |
+| [`sequoia-founder-market`](skills/sequoia-founder-market/) | Sequoia Capital | Founder quality, market selection, product-market fit, distribution, and long-duration company building |
+| [`a16z-techno-optimist`](skills/a16z-techno-optimist/) | Andreessen Horowitz | Technology adoption, market creation, platform power, AI/software/crypto theses, and techno-optimist venture bets |
+| [`usv-network-effects`](skills/usv-network-effects/) | Union Square Ventures | Network effects, marketplace defensibility, protocols/platforms, openness, and scalable network businesses |
+| [`founders-fund-contrarian`](skills/founders-fund-contrarian/) | Founders Fund | Contrarian venture, hard tech, non-consensus secrets, bold product ambition, and monopoly-seeking company design |
+| [`yc-early-pmf`](skills/yc-early-pmf/) | Y Combinator | Early PMF, talk to users, simple growth, default alive, and anti-premature-scaling startup judgment |
 
 ## Contributing
 

@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Pershing Square presentations and letters
   - Public Bill Ackman interviews
 ---
@@ -164,6 +165,13 @@ Return one of: Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Pershing Square: https://pershingsquareholdings.com/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

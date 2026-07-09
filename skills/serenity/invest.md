@@ -120,6 +120,7 @@ playbooks:
     verdictOptions: High-Conviction Bottleneck / Watchlist / Too Late / Dilution Risk / Meme-Only / Pass
     requiredSections: supplyChain,chokepoint,validation,valuation,dilution,rotation,invalidation
 sources:
+  - docs/reading-list.md
   - Serenity / @aleabitoreddit public X posts and long-form articles
   - Singularity Research Fund, Inside the Mind of Serenity (@aleabitoreddit)
   - Public Serenity tracker and AI photonics supply-chain summaries
@@ -251,6 +252,14 @@ Study these cases for supply-chain mapping, customer validation, market-cap vers
 - Don't blindly copy screenshots or self-reported returns.
 - Don't call every AI supplier a bottleneck.
 - Don't ignore stale data.
+
+
+
+## Reading List
+
+- Serenity on X: https://x.com/aleabitoreddit
+- Inside the Mind of Serenity: https://singularityresearchfund.substack.com/p/inside-the-mind-of-serenity-aleabitoreddit
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

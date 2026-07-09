@@ -90,6 +90,7 @@ playbooks:
     verdictOptions: Long-Term Own / Watch / Not Shared / Too Expensive / Pass
     requiredSections: sharedScale,flywheel,culture,runway,valuation,risks
 sources:
+  - docs/reading-list.md
   - Nomad Investment Partnership letters
   - Nick Sleep and Qais Zakaria public materials
 ---
@@ -203,6 +204,13 @@ Study these cases for customer surplus, flywheel durability, culture, and low-tu
 - Don't overtrade compounders.
 - Don't mistake size for shared scale.
 - Don't ignore valuation if expectations become impossible.
+
+
+
+## Reading List
+
+- Nomad letters archive: https://www.csinvesting.org/wp-content/uploads/2014/06/Nomad-Letters.pdf
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

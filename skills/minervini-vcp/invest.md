@@ -109,6 +109,7 @@ playbooks:
     verdictOptions: Buyable Breakout / Watch Pivot / Too Loose / Extended / Failed / Pass
     requiredSections: trendTemplate,vcp,pivot,volume,relativeStrength,stop,sizing,invalidation
 sources:
+  - docs/reading-list.md
   - Mark Minervini, Trade Like a Stock Market Wizard
   - Mark Minervini, Think and Trade Like a Champion
   - Public Mark Minervini VCP and SEPA education
@@ -234,6 +235,15 @@ Study these cases for stage-2 trend, tightening action, volume dry-up, pivot qua
 - Don't buy loose bases.
 - Don't chase far above the pivot.
 - Don't average down.
+
+
+
+## Reading List
+
+- Trade Like a Stock Market Wizard: https://www.amazon.com/Trade-Like-Stock-Market-Wizard/dp/0071807225
+- Minervini education: https://www.minervini.com/
+- Alphatrends: https://www.alphatrends.net/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

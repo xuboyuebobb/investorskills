@@ -92,6 +92,7 @@ playbooks:
     verdictOptions: Own / Watch / Too Hard / Too Expensive / Pass
     requiredSections: competence,quality,management,downside,compounding,invalidation
 sources:
+  - docs/reading-list.md
   - Li Lu public lectures and interviews
   - Himalaya Capital public materials
   - Berkshire Hathaway commentary on BYD and Li Lu
@@ -206,6 +207,12 @@ Study these cases for circle of competence, founder quality, downside protection
 - Don't ignore governance.
 - Don't diversify into ignorance.
 - Don't let macro fear override business truth unless it impairs value.
+
+
+
+## Reading List
+
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

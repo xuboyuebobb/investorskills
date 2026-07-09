@@ -68,6 +68,7 @@ playbooks:
     verdictOptions: "Own / Add On Fear / Hedge / Float Impaired / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Fairfax Financial annual letters
   - Public Prem Watsa interviews and history
 ---
@@ -165,6 +166,13 @@ Return one of: Own / Add On Fear / Hedge / Float Impaired / Pass. Include thesis
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Fairfax letters: https://www.fairfax.ca/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

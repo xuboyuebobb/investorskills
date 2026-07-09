@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Concentrated Own / Engage / Watch / Quality Broken / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Public TCI / Chris Hohn letters and reporting
 ---
 
@@ -162,6 +163,15 @@ Return one of: Concentrated Own / Engage / Watch / Quality Broken / Pass. Includ
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- TCI: https://www.tcifund.com/
+- 7 Powers: https://www.7powers.com/
+- 7 Powers book: https://www.amazon.com/7-Powers-Foundations-Business-Strategy/dp/0998116319
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

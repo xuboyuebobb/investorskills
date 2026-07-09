@@ -151,6 +151,7 @@ playbooks:
     verdictOptions: Accumulate / Probe / Chase Risk / Hold / Rotate / Pass
     requiredSections: bucket,narrative,thesis,attention,community,relativeValue,marketStructure,sizing,invalidation,journal
 sources:
+  - docs/reading-list.md
   - Public Ansem crypto market commentary
   - Crypto Twitter narrative and market-cycle observations
 ---
@@ -308,6 +309,13 @@ Study these cases for attention quality, community propagation, relative strengt
 - Don't size illiquid memecoins like majors.
 - Don't chase vertical candles without an exit.
 - Don't confuse being early with being right.
+
+
+
+## Reading List
+
+- Ansem on X: https://x.com/blknoiz06
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

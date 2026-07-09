@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Theme Overweight / Single-Name Long / Watch / Too Early / Too Expensive / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - ARK Invest research materials
   - Public Cathie Wood presentations and interviews
 ---
@@ -163,6 +164,13 @@ Return one of: Theme Overweight / Single-Name Long / Watch / Too Early / Too Exp
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- ARK research: https://www.ark-invest.com/research
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

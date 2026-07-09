@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Press / Probe / Hold / Cut / Pass
     requiredSections: dominantDriver,liquidity,confirmation,expression,sizing,invalidation
 sources:
+  - docs/reading-list.md
   - Stanley Druckenmiller public interviews and talks
   - Public commentary on Duquesne Capital macro process
   - George Soros and Druckenmiller macro trade case studies
@@ -223,6 +224,14 @@ Study these cases for dominant driver, liquidity regime, cross-asset confirmatio
 - Don't concentrate in mediocre setups.
 - Don't fight price action forever.
 - Don't duplicate the same macro risk unknowingly.
+
+
+
+## Reading List
+
+- Druckenmiller speech archive: https://www.valuewalk.com/stanley-druckenmiller-speech/
+- Market Wizards: https://www.amazon.com/Market-Wizards-Interviews-Top-Traders/dp/1118273052
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

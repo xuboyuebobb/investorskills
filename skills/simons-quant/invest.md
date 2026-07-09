@@ -93,6 +93,7 @@ playbooks:
     verdictOptions: Research / Paper Trade / Deploy Small / Reject / Overfit
     requiredSections: hypothesis,data,signals,validation,costs,portfolio,risk,decay
 sources:
+  - docs/reading-list.md
   - Gregory Zuckerman, The Man Who Solved the Market
   - Public Renaissance Technologies and Jim Simons interviews
 ---
@@ -207,6 +208,13 @@ Study these cases for process design, not copyable public signals.
 - Don't trust a perfect backtest.
 - Don't deploy story-driven signals as quant.
 - Don't ignore decay.
+
+
+
+## Reading List
+
+- The Man Who Solved the Market: https://www.amazon.com/Man-Who-Solved-Market-Revolution/dp/073521798X
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

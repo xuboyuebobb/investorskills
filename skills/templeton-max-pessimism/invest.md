@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Pessimism / Scale In / Watch / Trap / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - John Templeton biographies and investment principles
   - Templeton Growth Fund history
 ---
@@ -162,6 +163,12 @@ Return one of: Buy Pessimism / Scale In / Watch / Trap / Pass. Include thesis, e
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Short / Long / Watch / Evidence Incomplete / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - David Einhorn speeches and letters
   - Greenlight Capital public materials
   - Fooling Some of the People All of the Time
@@ -165,6 +166,14 @@ Return one of: Short / Long / Watch / Evidence Incomplete / Pass. Include thesis
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Fooling Some of the People All of the Time: https://www.amazon.com/Fooling-Some-People-All-Time/dp/0470481544
+- Greenlight Capital: https://www.greenlightcapital.com/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

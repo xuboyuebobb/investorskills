@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Follow System / Reduce Risk / Stop Out / No System Edge
     requiredSections: rules,signal,sizing,heat,drawdown,discipline
 sources:
+  - docs/reading-list.md
   - Market Wizards interview with Ed Seykota
   - Public Ed Seykota trend-following materials
 ---
@@ -207,6 +208,13 @@ Study these cases for discipline and process, not market prediction.
 - Don't override rules emotionally.
 - Don't expect high win rate.
 - Don't oversize after losses.
+
+
+
+## Reading List
+
+- Market Wizards: https://www.amazon.com/Market-Wizards-Interviews-Top-Traders/dp/1118273052
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

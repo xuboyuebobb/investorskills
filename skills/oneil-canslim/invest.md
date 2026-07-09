@@ -113,6 +113,7 @@ playbooks:
     verdictOptions: Buy Point / Watchlist / Extended / Pass / Market Stand Down
     requiredSections: canslim,base,pivot,market,stop,sellRules
 sources:
+  - docs/reading-list.md
   - William O'Neil, How to Make Money in Stocks
   - Investor's Business Daily CAN SLIM educational materials
 ---
@@ -227,6 +228,13 @@ Study these cases for the full stack: current earnings, annual earnings, new cat
 - Don't average down.
 - Don't buy extended breakouts.
 - Don't ignore weak earnings.
+
+
+
+## Reading List
+
+- How to Make Money in Stocks: https://www.amazon.com/How-Make-Money-Stocks-Winning/dp/0071614133
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

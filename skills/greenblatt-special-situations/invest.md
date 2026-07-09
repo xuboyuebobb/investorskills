@@ -94,6 +94,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Event Too Crowded / No Mispricing / Pass
     requiredSections: event,forcedSelling,value,incentives,catalyst,risks
 sources:
+  - docs/reading-list.md
   - Joel Greenblatt, You Can Be a Stock Market Genius
   - Joel Greenblatt, The Little Book That Beats the Market
   - Gotham Capital public history
@@ -207,6 +208,14 @@ Study these cases for structural mispricing, not generic cheapness.
 - Don't buy every spinoff.
 - Don't ignore incentives.
 - Don't assume complexity equals value.
+
+
+
+## Reading List
+
+- You Can Be a Stock Market Genius: https://www.amazon.com/You-Can-Stock-Market-Genius/dp/0684840073
+- The Little Book That Beats the Market: https://www.amazon.com/Little-Book-That-Beats-Market/dp/0471733067
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Enter / Add / Hold / Exit / No Signal
     requiredSections: breakout,n,unit,stop,adds,heat,exit
 sources:
+  - docs/reading-list.md
   - Turtle Trading rules attributed to Richard Dennis and William Eckhardt
   - Curtis Faith, Way of the Turtle
   - Public Turtle Trading rule summaries
@@ -208,6 +209,14 @@ Study these cases for rule design, not discretionary chart reading.
 - Don't override signals.
 - Don't average down.
 - Don't exceed correlated exposure limits.
+
+
+
+## Reading List
+
+- Original Turtle Rules: https://www.tradingblox.com/originalturtles/rules.htm
+- Way of the Turtle: https://www.amazon.com/Way-Turtle-Methods-Ordinary-Extraordinary/dp/007148664X
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Basket / Buy Single / Watch / Asset Trap / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Benjamin Graham, The Intelligent Investor
   - Security Analysis
   - Graham-Newman partnership history
@@ -163,6 +164,15 @@ Return one of: Buy Basket / Buy Single / Watch / Asset Trap / Pass. Include thes
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- The Intelligent Investor: https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661
+- Security Analysis: https://www.amazon.com/Security-Analysis-Sixth-Foreword-Buffett/dp/0071592539
+- Superinvestors essay: https://www8.gsb.columbia.edu/articles/columbia-business/superinvestors
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

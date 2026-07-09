@@ -105,6 +105,7 @@ playbooks:
     verdictOptions: Probe / Press / Hold / Exit / Pass
     requiredSections: bias,reality,feedbackLoop,asymmetry,tradeExpression,invalidation
 sources:
+  - docs/reading-list.md
   - George Soros, The Alchemy of Finance
   - George Soros, Soros on Soros
   - George Soros public lectures and interviews
@@ -222,6 +223,13 @@ Study these cases for belief versus reality, policy constraints, feedback loops,
 - Don't call every trend reflexive.
 - Don't stay in after invalidation.
 - Don't confuse contrarian with correct.
+
+
+
+## Reading List
+
+- The Alchemy of Finance: https://www.amazon.com/Alchemy-Finance-George-Soros/dp/0471445495
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

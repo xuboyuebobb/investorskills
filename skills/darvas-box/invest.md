@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Buy Breakout / Watch Box / Extended / Failed Box / Pass
     requiredSections: box,breakout,volume,stop,sizing,invalidation
 sources:
+  - docs/reading-list.md
   - Nicolas Darvas, How I Made $2,000,000 in the Stock Market
 ---
 
@@ -210,6 +211,13 @@ Study these cases for box definition, breakout trigger, stop placement, and movi
 - Don't average down.
 - Don't chase far above the box.
 - Don't use the model on weak, illiquid stocks.
+
+
+
+## Reading List
+
+- How I Made $2,000,000 in the Stock Market: https://www.amazon.com/How-Made-000-000-Market/dp/1607961235
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

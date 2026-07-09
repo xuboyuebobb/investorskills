@@ -69,6 +69,7 @@ playbooks:
     verdictOptions: "Long Duration / Short Duration / Overweight Credit / Underweight Credit / Neutral / Hedge"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Public Jeffrey Gundlach interviews and DoubleLine presentations
 ---
 
@@ -165,6 +166,14 @@ Return one of: Long Duration / Short Duration / Overweight Credit / Underweight 
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- DoubleLine: https://doubleline.com/
+- Lyn Alden research: https://www.lynalden.com/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

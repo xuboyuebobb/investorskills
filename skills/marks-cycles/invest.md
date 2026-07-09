@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Defensive / Neutral / Opportunistic / Aggressive / Stand Down
     requiredSections: cycle,psychology,riskPremium,posture,sizing,invalidation
 sources:
+  - docs/reading-list.md
   - Howard Marks, The Most Important Thing
   - Howard Marks, Mastering the Market Cycle
   - Oaktree memos by Howard Marks
@@ -219,6 +220,15 @@ Study these cases for cycle position, risk premium, market psychology, liquidity
 - Don't confuse low volatility with low risk.
 - Don't chase return when risk premium is thin.
 - Don't forecast with false precision.
+
+
+
+## Reading List
+
+- Oaktree memos: https://www.oaktreecapital.com/insights/memo
+- The Most Important Thing: https://www.amazon.com/Most-Important-Thing-Uncommon-Sense/dp/0231153686
+- Mastering the Market Cycle: https://www.amazon.com/Mastering-Market-Cycle-Getting-Odds/dp/1328480569
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

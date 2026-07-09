@@ -98,6 +98,7 @@ playbooks:
     verdictOptions: Long / Short / Probe / Cut / Stand Aside
     requiredSections: macro,trend,entry,stop,risk,invalidation
 sources:
+  - docs/reading-list.md
   - Public Paul Tudor Jones interviews
   - Market Wizards interviews
   - Public Tudor Investment risk-control discussions
@@ -211,6 +212,14 @@ Study these cases for turning points, technical confirmation, and loss control.
 - Don't average losers.
 - Don't let a macro view become identity.
 - Don't risk large drawdowns.
+
+
+
+## Reading List
+
+- Market Wizards: https://www.amazon.com/Market-Wizards-Interviews-Top-Traders/dp/1118273052
+- The New Market Wizards: https://www.amazon.com/New-Market-Wizards-Conversations-Americas/dp/0887306675
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

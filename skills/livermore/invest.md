@@ -93,6 +93,7 @@ playbooks:
     verdictOptions: Enter / Wait / Hold / Add / Exit / Stand Down
     requiredSections: trend,pivot,volume,sizing,stop,invalidation
 sources:
+  - docs/reading-list.md
   - Jesse Livermore, How to Trade in Stocks
   - Edwin Lefevre, Reminiscences of a Stock Operator
 ---
@@ -210,6 +211,15 @@ Study these cases for pattern recognition: the trade starts with market confirma
 - Don't average down.
 - Don't chase far above the pivot.
 - Don't force trades in a dull market.
+
+
+
+## Reading List
+
+- How to Trade in Stocks: https://www.amazon.com/How-Trade-Stocks-Jesse-Livermore/dp/0934380201
+- Reminiscences of a Stock Operator: https://www.amazon.com/Reminiscences-Stock-Operator-Edwin-Lefevre/dp/0471770884
+- Alphatrends: https://www.alphatrends.net/
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Asymmetric Long / Asymmetric Short / Watch / Too Early / Pass
     requiredSections: consensus,variant,evidence,structure,catalyst,carry,invalidation
 sources:
+  - docs/reading-list.md
   - Michael Lewis, The Big Short
   - Scion Capital public letters and filings
   - Public Michael Burry interviews and 13F filings
@@ -210,6 +211,14 @@ Study these cases for primary-source work, variant perception, asymmetry, and su
 - Don't be contrarian as performance art.
 - Don't ignore carry, borrow, or squeeze risk.
 - Don't use stale 13F positions as current views.
+
+
+
+## Reading List
+
+- The Big Short: https://www.amazon.com/Big-Short-Inside-Doomsday-Machine/dp/0393338827
+- SEC EDGAR: https://www.sec.gov/edgar
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

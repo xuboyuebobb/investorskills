@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Too Little Safety / Value Trap / Pass
     requiredSections: value,discount,mispricing,downside,catalyst,risks
 sources:
+  - docs/reading-list.md
   - Seth Klarman, Margin of Safety
   - Baupost public letters and interviews
 ---
@@ -207,6 +208,13 @@ Study these cases for margin of safety, forced selling, illiquidity discount, an
 - Don't confuse cheap with safe.
 - Don't ignore leverage.
 - Don't force catalysts.
+
+
+
+## Reading List
+
+- Margin of Safety: https://www.amazon.com/Margin-Safety-Risk-Averse-Strategies-Thoughtful/dp/0887305105
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

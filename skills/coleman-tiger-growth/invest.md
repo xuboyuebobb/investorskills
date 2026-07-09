@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Concentrated Growth Long / Watch / Too Expensive / Growth Broken / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Public Tiger Global / Chase Coleman reporting and growth-investing case studies
 ---
 
@@ -164,6 +165,14 @@ Return one of: Concentrated Growth Long / Watch / Too Expensive / Growth Broken 
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Andrew Chen: https://andrewchen.com/
+- Bessemer Cloud Atlas: https://www.bvp.com/atlas
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

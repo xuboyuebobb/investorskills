@@ -90,6 +90,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Story Not Proven / Too Expensive / Pass
     requiredSections: category,story,growth,valuation,balanceSheet,risks,invalidation
 sources:
+  - docs/reading-list.md
   - Peter Lynch, One Up on Wall Street
   - Peter Lynch, Beating the Street
   - Fidelity Magellan public history
@@ -203,6 +204,14 @@ Study these cases for stock classification, simple story, financial confirmation
 - Don't buy a story without earnings.
 - Don't ignore debt.
 - Don't overpay for excitement.
+
+
+
+## Reading List
+
+- One Up on Wall Street: https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403
+- Beating the Street: https://www.amazon.com/Beating-Street-Peter-Lynch/dp/0671891634
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 

@@ -72,6 +72,7 @@ playbooks:
     verdictOptions: "Overweight / Underweight / Hedge / Neutral / Rebalance"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/reading-list.md
   - Ray Dalio, Principles
   - Bridgewater All Weather materials
   - How the Economic Machine Works
@@ -170,6 +171,14 @@ Return one of: Overweight / Underweight / Hedge / Neutral / Rebalance. Include t
 - Don't force trades.
 - Don't ignore risk structure.
 - Don't confuse narrative with proof.
+
+
+
+## Reading List
+
+- Economic Principles: https://www.economicprinciples.org/
+- Changing World Order: https://www.amazon.com/Changing-World-Order-Nations-Succeed/dp/1982160276
+- Shared reading list: ../../docs/reading-list.md
 
 ## Source Notes
 
