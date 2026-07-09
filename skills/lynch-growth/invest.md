@@ -90,6 +90,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Story Not Proven / Too Expensive / Pass
     requiredSections: category,story,growth,valuation,balanceSheet,risks,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Peter Lynch, One Up on Wall Street
   - Peter Lynch, Beating the Street
@@ -206,6 +207,11 @@ Study these cases for stock classification, simple story, financial confirmation
 - Don't overpay for excitement.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

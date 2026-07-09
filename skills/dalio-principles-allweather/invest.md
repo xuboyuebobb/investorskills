@@ -72,6 +72,7 @@ playbooks:
     verdictOptions: "Overweight / Underweight / Hedge / Neutral / Rebalance"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Ray Dalio, Principles
   - Bridgewater All Weather materials
@@ -173,6 +174,13 @@ Return one of: Overweight / Underweight / Hedge / Neutral / Rebalance. Include t
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
+- Macro Voices: https://open.spotify.com/search/Macro%20Voices/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

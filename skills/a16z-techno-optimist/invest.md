@@ -68,6 +68,7 @@ playbooks:
     verdictOptions: "High-Conviction Tech Bet / Theme Watch / Too Early / Narrative Only / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - a16z public essays and partner writing
   - Software Is Eating the World and related techno-optimist materials
@@ -169,6 +170,13 @@ Return one of: High-Conviction Tech Bet / Theme Watch / Too Early / Narrative On
 - Don't force a decision when data is incomplete.
 
 
+
+
+## Podcasts
+
+- a16z Show: https://open.spotify.com/search/a16z%20Show/shows
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

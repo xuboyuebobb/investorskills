@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Defensive / Neutral / Opportunistic / Aggressive / Stand Down
     requiredSections: cycle,psychology,riskPremium,posture,sizing,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Howard Marks, The Most Important Thing
   - Howard Marks, Mastering the Market Cycle
@@ -222,6 +223,14 @@ Study these cases for cycle position, risk premium, market psychology, liquidity
 - Don't forecast with false precision.
 
 
+
+
+## Podcasts
+
+- Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
+- Macro Voices: https://open.spotify.com/search/Macro%20Voices/shows
+- Capital Allocators: https://open.spotify.com/search/Capital%20Allocators/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

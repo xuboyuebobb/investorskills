@@ -109,6 +109,7 @@ playbooks:
     verdictOptions: Buyable Breakout / Watch Pivot / Too Loose / Extended / Failed / Pass
     requiredSections: trendTemplate,vcp,pivot,volume,relativeStrength,stop,sizing,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Mark Minervini, Trade Like a Stock Market Wizard
   - Mark Minervini, Think and Trade Like a Champion
@@ -237,6 +238,12 @@ Study these cases for stage-2 trend, tightening action, volume dry-up, pivot qua
 - Don't average down.
 
 
+
+
+## Podcasts
+
+- Chat With Traders: https://open.spotify.com/search/Chat%20With%20Traders/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

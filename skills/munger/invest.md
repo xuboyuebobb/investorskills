@@ -89,6 +89,7 @@ playbooks:
     verdictOptions: Act / Wait / Pass / Too Hard
     requiredSections: inversion,incentives,models,quality,opportunityCost,risks
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Charlie Munger, Poor Charlie's Almanack
   - Berkshire Hathaway annual meeting transcripts
@@ -208,6 +209,14 @@ Study these cases through inversion, incentives, quality, opportunity cost, and 
 - Don't ignore obvious stupidity.
 
 
+
+
+## Podcasts
+
+- The Knowledge Project: https://open.spotify.com/search/The%20Knowledge%20Project/shows
+- Founders: https://open.spotify.com/search/Founders%20David%20Senra/shows
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

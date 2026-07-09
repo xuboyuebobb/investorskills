@@ -69,6 +69,7 @@ playbooks:
     verdictOptions: "Long Duration / Short Duration / Overweight Credit / Underweight Credit / Neutral / Hedge"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Public Jeffrey Gundlach interviews and DoubleLine presentations
 ---
@@ -168,6 +169,13 @@ Return one of: Long Duration / Short Duration / Overweight Credit / Underweight 
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
+- Macro Voices: https://open.spotify.com/search/Macro%20Voices/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

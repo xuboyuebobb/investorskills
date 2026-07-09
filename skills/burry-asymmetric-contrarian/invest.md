@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Asymmetric Long / Asymmetric Short / Watch / Too Early / Pass
     requiredSections: consensus,variant,evidence,structure,catalyst,carry,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Michael Lewis, The Big Short
   - Scion Capital public letters and filings
@@ -213,6 +214,11 @@ Study these cases for primary-source work, variant perception, asymmetry, and su
 - Don't use stale 13F positions as current views.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

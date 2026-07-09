@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Buy Breakout / Watch Box / Extended / Failed Box / Pass
     requiredSections: box,breakout,volume,stop,sizing,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Nicolas Darvas, How I Made $2,000,000 in the Stock Market
 ---
@@ -213,6 +214,11 @@ Study these cases for box definition, breakout trigger, stop placement, and movi
 - Don't use the model on weak, illiquid stocks.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

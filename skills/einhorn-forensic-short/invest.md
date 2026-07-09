@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Short / Long / Watch / Evidence Incomplete / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - David Einhorn speeches and letters
   - Greenlight Capital public materials
@@ -168,6 +169,12 @@ Return one of: Short / Long / Watch / Evidence Incomplete / Pass. Include thesis
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

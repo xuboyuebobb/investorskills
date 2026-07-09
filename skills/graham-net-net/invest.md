@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Basket / Buy Single / Watch / Asset Trap / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Benjamin Graham, The Intelligent Investor
   - Security Analysis
@@ -166,6 +167,11 @@ Return one of: Buy Basket / Buy Single / Watch / Asset Trap / Pass. Include thes
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

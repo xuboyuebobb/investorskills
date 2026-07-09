@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Promising Seed / Needs Users / Premature Scale / Default Dead / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Y Combinator essays and startup school materials
   - Paul Graham essays on startups
@@ -167,6 +168,13 @@ Return one of: Promising Seed / Needs Users / Premature Scale / Default Dead / P
 - Don't force a decision when data is incomplete.
 
 
+
+
+## Podcasts
+
+- Y Combinator Startup Podcast: https://open.spotify.com/search/Y%20Combinator%20Startup%20Podcast/shows
+- Lenny's Podcast: https://open.spotify.com/search/Lenny%27s%20Podcast/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

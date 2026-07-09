@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Basket / Add / Hold / Asset Impaired / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Walter Schloss interviews and partnership commentary
   - Buffett essay Superinvestors of Graham-and-Doddsville
@@ -165,6 +166,11 @@ Return one of: Buy Basket / Add / Hold / Asset Impaired / Pass. Include thesis, 
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

@@ -68,6 +68,7 @@ playbooks:
     verdictOptions: "Own / Add On Fear / Hedge / Float Impaired / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Fairfax Financial annual letters
   - Public Prem Watsa interviews and history
@@ -168,6 +169,11 @@ Return one of: Own / Add On Fear / Hedge / Float Impaired / Pass. Include thesis
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Too Little Safety / Value Trap / Pass
     requiredSections: value,discount,mispricing,downside,catalyst,risks
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Seth Klarman, Margin of Safety
   - Baupost public letters and interviews
@@ -210,6 +211,11 @@ Study these cases for margin of safety, forced selling, illiquidity discount, an
 - Don't force catalysts.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

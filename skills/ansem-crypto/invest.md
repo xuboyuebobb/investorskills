@@ -151,6 +151,7 @@ playbooks:
     verdictOptions: Accumulate / Probe / Chase Risk / Hold / Rotate / Pass
     requiredSections: bucket,narrative,thesis,attention,community,relativeValue,marketStructure,sizing,invalidation,journal
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Public Ansem crypto market commentary
   - Crypto Twitter narrative and market-cycle observations
@@ -311,6 +312,14 @@ Study these cases for attention quality, community propagation, relative strengt
 - Don't confuse being early with being right.
 
 
+
+
+## Podcasts
+
+- Bankless: https://open.spotify.com/search/Bankless%20podcast/shows
+- Unchained: https://open.spotify.com/search/Unchained%20Laura%20Shin/shows
+- Empire: https://open.spotify.com/search/Empire%20Blockworks/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

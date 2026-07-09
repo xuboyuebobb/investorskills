@@ -90,6 +90,7 @@ playbooks:
     verdictOptions: Long-Term Own / Watch / Not Shared / Too Expensive / Pass
     requiredSections: sharedScale,flywheel,culture,runway,valuation,risks
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Nomad Investment Partnership letters
   - Nick Sleep and Qais Zakaria public materials
@@ -206,6 +207,11 @@ Study these cases for customer surplus, flywheel durability, culture, and low-tu
 - Don't ignore valuation if expectations become impossible.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

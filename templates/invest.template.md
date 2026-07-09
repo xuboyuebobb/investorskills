@@ -177,6 +177,11 @@ When evaluating a new opportunity, produce:
 - Don't <common misuse of this investor model>
 - Don't <behavior that violates the strategy>
 
+## Podcasts
+
+- <Recommended podcast with Spotify link>
+- Shared podcast list: ../../docs/podcast-list.md
+
 ## Reading List
 
 - <Primary essay, letter, memo, report, or book with link when available>

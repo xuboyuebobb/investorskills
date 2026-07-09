@@ -90,6 +90,7 @@ playbooks:
     verdictOptions: Activist Long / Watch / Needs Catalyst / Governance Too Hard / Pass
     requiredSections: undervaluation,changePlan,governance,path,valueUnlock,risks
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Public Carl Icahn letters and interviews
   - Icahn Enterprises public activism history
@@ -205,6 +206,11 @@ Study these cases for catalyst path, public pressure, capital allocation, and ca
 - Don't overpay for a public campaign.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

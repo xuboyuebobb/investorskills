@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Contrarian Invest / Too Consensus / Vision Weak / Execution Risk / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Founders Fund public materials
   - Peter Thiel Zero to One frameworks and interviews
@@ -168,6 +169,13 @@ Return one of: Contrarian Invest / Too Consensus / Vision Weak / Execution Risk 
 - Don't force a decision when data is incomplete.
 
 
+
+
+## Podcasts
+
+- Founders: https://open.spotify.com/search/Founders%20David%20Senra/shows
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

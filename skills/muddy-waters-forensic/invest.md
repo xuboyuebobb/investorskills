@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Short / Watch / Evidence Incomplete / Structure Risk Too High / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Muddy Waters public research reports
   - Carson Block interviews and public commentary
@@ -168,6 +169,13 @@ Return one of: Short / Watch / Evidence Incomplete / Structure Risk Too High / P
 - Don't force a decision when data is incomplete.
 
 
+
+
+## Podcasts
+
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

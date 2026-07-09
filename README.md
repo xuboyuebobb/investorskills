@@ -6,7 +6,7 @@
 
 Run these investor skills inside [Questflow](https://questflow.ai), the AI Finance Agent for financial markets.
 
-[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Reading List](docs/reading-list.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
+[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Reading List](docs/reading-list.md) · [Podcast List](docs/podcast-list.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
 
 Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI finance agents can apply them.
 
@@ -113,7 +113,8 @@ The optimized template adds fields that matter for real investor agents: `assetC
 investorskills/
 ├── docs/
 │   ├── spec.md              # Optional investment schema specification
-│   └── reading-list.md      # Primary sources and classic essays by skill
+│   ├── reading-list.md      # Primary sources and classic essays by skill
+│   └── podcast-list.md      # Recommended podcasts with Spotify/Apple links
 ├── examples/
 │   └── buffett.invest.md    # Standalone investment-system example
 ├── templates/

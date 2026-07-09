@@ -113,6 +113,7 @@ playbooks:
     verdictOptions: Buy Point / Watchlist / Extended / Pass / Market Stand Down
     requiredSections: canslim,base,pivot,market,stop,sellRules
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - William O'Neil, How to Make Money in Stocks
   - Investor's Business Daily CAN SLIM educational materials
@@ -230,6 +231,11 @@ Study these cases for the full stack: current earnings, annual earnings, new cat
 - Don't ignore weak earnings.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

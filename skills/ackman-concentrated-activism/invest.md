@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Pershing Square presentations and letters
   - Public Bill Ackman interviews
@@ -167,6 +168,12 @@ Return one of: Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass
 - Don't confuse narrative with proof.
 
 
+
+
+## Podcasts
+
+- Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 

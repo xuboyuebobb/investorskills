@@ -94,6 +94,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Event Too Crowded / No Mispricing / Pass
     requiredSections: event,forcedSelling,value,incentives,catalyst,risks
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Joel Greenblatt, You Can Be a Stock Market Genius
   - Joel Greenblatt, The Little Book That Beats the Market
@@ -210,6 +211,11 @@ Study these cases for structural mispricing, not generic cheapness.
 - Don't assume complexity equals value.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

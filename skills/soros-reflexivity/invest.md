@@ -105,6 +105,7 @@ playbooks:
     verdictOptions: Probe / Press / Hold / Exit / Pass
     requiredSections: bias,reality,feedbackLoop,asymmetry,tradeExpression,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - George Soros, The Alchemy of Finance
   - George Soros, Soros on Soros
@@ -225,6 +226,11 @@ Study these cases for belief versus reality, policy constraints, feedback loops,
 - Don't confuse contrarian with correct.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

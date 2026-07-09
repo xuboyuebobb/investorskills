@@ -92,6 +92,7 @@ playbooks:
     verdictOptions: Own / Watch / Too Hard / Too Expensive / Pass
     requiredSections: competence,quality,management,downside,compounding,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Li Lu public lectures and interviews
   - Himalaya Capital public materials
@@ -209,6 +210,11 @@ Study these cases for circle of competence, founder quality, downside protection
 - Don't let macro fear override business truth unless it impairs value.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

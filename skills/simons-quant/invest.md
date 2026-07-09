@@ -93,6 +93,7 @@ playbooks:
     verdictOptions: Research / Paper Trade / Deploy Small / Reject / Overfit
     requiredSections: hypothesis,data,signals,validation,costs,portfolio,risk,decay
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Gregory Zuckerman, The Man Who Solved the Market
   - Public Renaissance Technologies and Jim Simons interviews
@@ -210,6 +211,11 @@ Study these cases for process design, not copyable public signals.
 - Don't ignore decay.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

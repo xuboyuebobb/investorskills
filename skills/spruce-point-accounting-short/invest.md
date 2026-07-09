@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Short / Watch / Accounting Risk High / Needs More Data / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Spruce Point Capital public research reports
 ---
@@ -164,6 +165,11 @@ Return one of: Short / Watch / Accounting Risk High / Needs More Data / Pass. In
 - Don't force a decision when data is incomplete.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

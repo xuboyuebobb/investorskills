@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Press / Probe / Hold / Cut / Pass
     requiredSections: dominantDriver,liquidity,confirmation,expression,sizing,invalidation
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Stanley Druckenmiller public interviews and talks
   - Public commentary on Duquesne Capital macro process
@@ -226,6 +227,11 @@ Study these cases for dominant driver, liquidity regime, cross-asset confirmatio
 - Don't duplicate the same macro risk unknowingly.
 
 
+
+
+## Podcasts
+
+- Shared podcast list with Spotify links: ../../docs/podcast-list.md
 
 ## Reading List
 

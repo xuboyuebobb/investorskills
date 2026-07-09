@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Enter / Add / Hold / Exit / No Signal
     requiredSections: breakout,n,unit,stop,adds,heat,exit
 sources:
+  - docs/podcast-list.md
   - docs/reading-list.md
   - Turtle Trading rules attributed to Richard Dennis and William Eckhardt
   - Curtis Faith, Way of the Turtle
@@ -211,6 +212,13 @@ Study these cases for rule design, not discretionary chart reading.
 - Don't exceed correlated exposure limits.
 
 
+
+
+## Podcasts
+
+- Top Traders Unplugged: https://open.spotify.com/search/Top%20Traders%20Unplugged/shows
+- Better System Trader: https://open.spotify.com/search/Better%20System%20Trader/shows
+- Shared podcast list: ../../docs/podcast-list.md
 
 ## Reading List
 
