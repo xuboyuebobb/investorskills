@@ -1,3 +1,5 @@
+![Investor Skills - portable judgment systems for AI finance agents](assets/social-poster.png)
+
 # Investor Skills
 
 **Investor Skills are portable judgment systems for AI finance agents.**
