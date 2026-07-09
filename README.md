@@ -191,6 +191,17 @@ Copy any `SKILL.md` into ChatGPT, Codex, Cursor, Claude, or another agent conver
 | [`icahn-activist`](skills/icahn-activist/) | Carl Icahn | Activist investing, governance pressure, capital allocation fixes, asset sales, and control catalysts |
 | [`li-lu-value`](skills/li-lu-value/) | Li Lu | Circle of competence, deep research, downside protection, global quality value, and concentrated ownership |
 | [`nick-sleep-scale-economies`](skills/nick-sleep-scale-economies/) | Nick Sleep / Qais Zakaria | Scale economies shared, customer-value flywheels, owner culture, low turnover, and long-duration compounding |
+| [`dalio-principles-allweather`](skills/dalio-principles-allweather/) | Ray Dalio | Economic machine, debt cycles, risk parity, diversification, and all-weather portfolio construction |
+| [`gundlach-bonds`](skills/gundlach-bonds/) | Jeffrey Gundlach | Duration, yield curve, credit spreads, fixed-income relative value, and rates regime judgment |
+| [`ackman-concentrated-activism`](skills/ackman-concentrated-activism/) | Bill Ackman | Concentrated multiyear equity theses, activism catalysts, business quality, and public thesis path |
+| [`einhorn-forensic-short`](skills/einhorn-forensic-short/) | David Einhorn | Forensic accounting shorts, governance failures, capital-allocation critique, and evidence-based long/short |
+| [`coleman-tiger-growth`](skills/coleman-tiger-growth/) | Chase Coleman / Tiger Global | Scalable growth platforms, unit economics, network effects, growth duration, and concentrated tech growth |
+| [`cathie-wood-innovation`](skills/cathie-wood-innovation/) | Cathie Wood | Disruptive innovation, S-curve adoption, technology convergence, and long-duration thematic growth |
+| [`graham-net-net`](skills/graham-net-net/) | Benjamin Graham | Net-current-asset value, statistical deep value, margin of safety, and balance-sheet-first bargains |
+| [`schloss-cigar-butt`](skills/schloss-cigar-butt/) | Walter Schloss | Cigar-butt value, cheap balance sheets, diversified bargains, and low-turnover deep value |
+| [`templeton-max-pessimism`](skills/templeton-max-pessimism/) | John Templeton | Global contrarian value, maximum pessimism buying, crisis recovery, and cross-border opportunity search |
+| [`hohn-concentrated-quality`](skills/hohn-concentrated-quality/) | Chris Hohn / TCI | Concentrated quality compounders, pricing power, high ROIC, engagement, and long-duration ownership |
+| [`watsa-insurance-float`](skills/watsa-insurance-float/) | Prem Watsa / Fairfax | Insurance float, contrarian value allocation, special situations, and downside-focused capital compounding |
 
 ## Contributing
 
