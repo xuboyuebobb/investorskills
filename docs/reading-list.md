@@ -164,6 +164,18 @@ Separate facts, assumptions, and judgment.
 | Piece | Author | Link | Type | Best skills |
 |---|---|---|---|---|
 | Ansem on X | Ansem (@blknoiz06) | https://x.com/blknoiz06 | free | `ansem-crypto` |
+| Arthur Hayes essays | Arthur Hayes | https://cryptohayes.substack.com | free | `arthur-hayes-liquidity` |
+| Arthur Hayes Medium archive | Arthur Hayes | https://medium.com/@arthur_hayes | free | `arthur-hayes-liquidity` |
+| Hsaka on X | Hsaka | https://x.com/hsaka | free | `hsaka-crypto-ta` |
+| CryptoCred on X | CryptoCred | https://x.com/CryptoCred | free | `cryptocred-structure` |
+| Willy Woo / Woobull | Willy Woo | https://woobull.com/ | free | `willy-woo-onchain` |
+| Willy Woo on X | Willy Woo | https://x.com/woonomic | free | `willy-woo-onchain` |
+| Cobie on X | Cobie | https://x.com/cobie | free | `cobie-cycle-filter` |
+| Paradigm writing | Paradigm | https://www.paradigm.xyz/writing | free | `paradigm-crypto-research` |
+| Multicoin blog | Multicoin Capital | https://multicoin.capital/blog/ | free | `multicoin-thesis-vc` |
+| a16z crypto | a16z crypto | https://a16zcrypto.com/ | free | `a16z-crypto` |
+| Delphi Digital | Delphi Digital | https://delphidigital.io/ | free | `delphi-thematic-crypto` |
+| Placeholder blog | Placeholder | https://www.placeholder.vc/blog | free | `placeholder-token-networks` |
 | Serenity on X | Serenity (@aleabitoreddit) | https://x.com/aleabitoreddit | free | `serenity` |
 | Inside the Mind of Serenity | Singularity Research Fund | https://singularityresearchfund.substack.com/p/inside-the-mind-of-serenity-aleabitoreddit | free/secondary | `serenity` |
 
@@ -220,6 +232,16 @@ Separate facts, assumptions, and judgment.
 - `coleman-tiger-growth` -> https://andrewchen.com/ + https://www.bvp.com/atlas
 - `cathie-wood-innovation` -> https://www.ark-invest.com/research
 - `ansem-crypto` -> https://x.com/blknoiz06
+- `arthur-hayes-liquidity` -> https://cryptohayes.substack.com
+- `hsaka-crypto-ta` -> https://x.com/hsaka
+- `cryptocred-structure` -> https://x.com/CryptoCred
+- `willy-woo-onchain` -> https://woobull.com/
+- `cobie-cycle-filter` -> https://x.com/cobie
+- `paradigm-crypto-research` -> https://www.paradigm.xyz/writing
+- `multicoin-thesis-vc` -> https://multicoin.capital/blog/
+- `a16z-crypto` -> https://a16zcrypto.com/
+- `delphi-thematic-crypto` -> https://delphidigital.io/
+- `placeholder-token-networks` -> https://www.placeholder.vc/blog
 - `serenity` -> https://x.com/aleabitoreddit
 
 ### Activism / Special

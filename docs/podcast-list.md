@@ -119,9 +119,12 @@ Questflow also ships **exclusive investor skills** distilled from top traders by
 
 | Podcast | Spotify | Apple | Pod.link | Best skills |
 |---|---|---|---|---|
-| Bankless | [Spotify](https://open.spotify.com/search/Bankless%20podcast/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1499409058) | [pod.link](https://pod.link/1499409058) | `ansem-crypto`, `a16z-techno-optimist` |
-| Unchained | [Spotify](https://open.spotify.com/search/Unchained%20Laura%20Shin/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1123922160) | [pod.link](https://pod.link/1123922160) | `ansem-crypto` |
-| Empire (Blockworks) | [Spotify](https://open.spotify.com/search/Empire%20Blockworks/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1554930038) | [pod.link](https://pod.link/1554930038) | `ansem-crypto`, macro-crypto crossover |
+| Bankless | [Spotify](https://open.spotify.com/search/Bankless%20podcast/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1499409058) | [pod.link](https://pod.link/1499409058) | `ansem-crypto`, `arthur-hayes-liquidity`, `a16z-crypto`, `willy-woo-onchain` |
+| Unchained | [Spotify](https://open.spotify.com/search/Unchained%20Laura%20Shin/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1123922160) | [pod.link](https://pod.link/1123922160) | `ansem-crypto`, `paradigm-crypto-research`, `multicoin-thesis-vc` |
+| Empire (Blockworks) | [Spotify](https://open.spotify.com/search/Empire%20Blockworks/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1554930038) | [pod.link](https://pod.link/1554930038) | `ansem-crypto`, `delphi-thematic-crypto`, macro-crypto crossover |
+| UpOnly | [Spotify](https://open.spotify.com/search/UpOnly%20crypto/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1554387610) | [pod.link](https://pod.link/1554387610) | `cobie-cycle-filter`, `hsaka-crypto-ta`, `arthur-hayes-liquidity` |
+| Uncommon Core | [Spotify](https://open.spotify.com/search/Uncommon%20Core/shows) | [Apple](https://podcasts.apple.com/us/podcast/id1517659188) | [pod.link](https://pod.link/1517659188) | `paradigm-crypto-research` |
+| a16z Show | [Spotify](https://open.spotify.com/search/a16z%20Show/shows) | [Apple](https://podcasts.apple.com/us/podcast/id842818711) | [pod.link](https://pod.link/842818711) | `a16z-crypto` |
 
 ---
 

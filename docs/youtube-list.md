@@ -124,9 +124,19 @@ Questflow exclusive skills are closed-source systems distilled from top traders 
 | Video / Channel | Link | Best skills |
 |---|---|---|
 | Ansem interviews | https://www.youtube.com/results?search_query=Ansem+crypto+interview | `ansem-crypto` |
-| Bankless | https://www.youtube.com/@Bankless | `ansem-crypto` |
-| Unchained / Laura Shin interviews | https://www.youtube.com/results?search_query=Unchained+Laura+Shin | `ansem-crypto` |
-| Empire / Blockworks video | https://www.youtube.com/results?search_query=Empire+Blockworks+podcast | `ansem-crypto` |
+| Arthur Hayes interviews | https://www.youtube.com/results?search_query=Arthur+Hayes+interview | `arthur-hayes-liquidity` |
+| Hsaka interviews | https://www.youtube.com/results?search_query=Hsaka+crypto | `hsaka-crypto-ta` |
+| CryptoCred TA education | https://www.youtube.com/results?search_query=CryptoCred+TA | `cryptocred-structure` |
+| Willy Woo on-chain interviews | https://www.youtube.com/results?search_query=Willy+Woo+on-chain | `willy-woo-onchain` |
+| UpOnly / Cobie | https://www.youtube.com/results?search_query=UpOnly+Cobie | `cobie-cycle-filter` |
+| Paradigm / Hasu talks | https://www.youtube.com/results?search_query=Paradigm+crypto+research | `paradigm-crypto-research` |
+| Multicoin / Kyle Samani | https://www.youtube.com/results?search_query=Multicoin+Capital+Kyle+Samani | `multicoin-thesis-vc` |
+| a16z crypto talks | https://www.youtube.com/@a16z | `a16z-crypto` |
+| Delphi Digital talks | https://www.youtube.com/results?search_query=Delphi+Digital+crypto | `delphi-thematic-crypto` |
+| Chris Burniske / Placeholder | https://www.youtube.com/results?search_query=Chris+Burniske+Placeholder | `placeholder-token-networks` |
+| Bankless | https://www.youtube.com/@Bankless | `ansem-crypto`, `arthur-hayes-liquidity`, `a16z-crypto` |
+| Unchained / Laura Shin interviews | https://www.youtube.com/results?search_query=Unchained+Laura+Shin | `ansem-crypto`, `paradigm-crypto-research` |
+| Empire / Blockworks video | https://www.youtube.com/results?search_query=Empire+Blockworks+podcast | `ansem-crypto`, `delphi-thematic-crypto` |
 
 ---
 
@@ -167,6 +177,11 @@ Questflow exclusive skills are closed-source systems distilled from top traders 
 - `muddy-waters-forensic` / `hindenburg-investigation` / `einhorn-forensic-short` -> investigative interviews + primary reports
 - `ackman-concentrated-activism` / `icahn-activist` -> presentation and interview archives
 - `ansem-crypto` -> crypto interviews and Bankless/Unchained ecosystem
+- `arthur-hayes-liquidity` -> Arthur Hayes interviews
+- `hsaka-crypto-ta` / `cryptocred-structure` -> crypto TA education/interviews
+- `willy-woo-onchain` -> on-chain interviews
+- `cobie-cycle-filter` -> UpOnly / Cobie
+- `paradigm-crypto-research` / `multicoin-thesis-vc` / `a16z-crypto` / `delphi-thematic-crypto` / `placeholder-token-networks` -> research/VC talks
 - `serenity` -> industry/supply-chain video context + primary X research
 - `cathie-wood-innovation` -> ARK talks
 - `coleman-tiger-growth` -> growth-investing interviews + Acquired case studies

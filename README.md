@@ -240,6 +240,16 @@ Copy any `SKILL.md` into ChatGPT, Codex, Cursor, Claude, or another agent conver
 | [`usv-network-effects`](skills/usv-network-effects/) | Union Square Ventures | Network effects, marketplace defensibility, protocols/platforms, openness, and scalable network businesses |
 | [`founders-fund-contrarian`](skills/founders-fund-contrarian/) | Founders Fund | Contrarian venture, hard tech, non-consensus secrets, bold product ambition, and monopoly-seeking company design |
 | [`yc-early-pmf`](skills/yc-early-pmf/) | Y Combinator | Early PMF, talk to users, simple growth, default alive, and anti-premature-scaling startup judgment |
+| [`arthur-hayes-liquidity`](skills/arthur-hayes-liquidity/) | Arthur Hayes | Dollar liquidity, crypto risk appetite, funding/leverage cycles, and macro-driven crypto positioning |
+| [`hsaka-crypto-ta`](skills/hsaka-crypto-ta/) | Hsaka | Crypto market structure, trend, invalidation, leverage discipline, and narrative-aware technical timing |
+| [`cryptocred-structure`](skills/cryptocred-structure/) | CryptoCred | Crypto levels, structure, confluence, predefined risk, and educational chart planning |
+| [`willy-woo-onchain`](skills/willy-woo-onchain/) | Willy Woo | On-chain holder behavior, realized value, supply dynamics, and BTC/crypto cycle diagnosis |
+| [`cobie-cycle-filter`](skills/cobie-cycle-filter/) | Cobie | Crypto cycle psychology, narrative traps, leverage humility, and anti-stupid decision filtering |
+| [`paradigm-crypto-research`](skills/paradigm-crypto-research/) | Paradigm | Protocol research, mechanism design, incentives/MEV/L2, and research-driven crypto investing |
+| [`multicoin-thesis-vc`](skills/multicoin-thesis-vc/) | Multicoin Capital | Thesis-driven crypto VC, high-performance chains, token value capture, and sector concentration |
+| [`a16z-crypto`](skills/a16z-crypto/) | a16z crypto | Web3 adoption, crypto infrastructure vs apps, open networks, and long-duration ecosystem investing |
+| [`delphi-thematic-crypto`](skills/delphi-thematic-crypto/) | Delphi Digital | Crypto thematic research, sector maps, tokenomics, narrative timing, and research-driven allocation |
+| [`placeholder-token-networks`](skills/placeholder-token-networks/) | Placeholder | Open network investing, token frameworks, network participation, and long-duration crypto network ownership |
 
 ## Contributing
 
