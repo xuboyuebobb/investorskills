@@ -18,7 +18,22 @@ Investor Skills are plain-text skill packages. You can use them in Claude Code, 
 
 They are tailored for Questflow's financial harness: models, skills, plugins, and execution accounts working together across market data, portfolio context, broker/exchange/wallet permissions, and fund workflows.
 
-This repo contains the open-source templates and example skills. Questflow also includes additional investor skills and execution-ready workflows that are not open-sourced and can be found inside the product.
+### Open-source skills
+
+This repo is the free public layer:
+- portable investor judgment systems
+- templates and schemas
+- [reading list](docs/reading-list.md) and [podcast list](docs/podcast-list.md) as reference material for each skill
+
+Use a skill first, then use readings/podcasts as source material to understand, stress-test, and enrich that skill.
+
+### Questflow exclusive skills
+
+Questflow also includes **exclusive closed-source skills** not published here.
+
+Those exclusive skills are distilled from top traders by labeling judgment across real trades: what they watched, why they entered, how they sized, what would invalidate the thesis, and how they reviewed the outcome. They are available to paid members inside [Questflow](https://questflow.ai).
+
+The free open-source skills here should already feel excellent for study, research, and agent workflows. Questflow exclusives go further for execution-grade, trade-labeled judgment.
 
 [Run these skills in Questflow](https://questflow.ai)
 
@@ -135,6 +150,15 @@ investorskills/
 ### Use an investor skill
 
 Copy a skill package into your agent's skills directory. The `SKILL.md` file is the entry point; any linked `invest.md` file is supporting schema.
+
+### Use readings and podcasts as skill references
+
+1. Load a skill package.
+2. Open the skill's own `Reading List` / `Podcasts` section.
+3. Or use the shared indexes:
+   - [docs/reading-list.md](docs/reading-list.md)
+   - [docs/podcast-list.md](docs/podcast-list.md)
+4. Attach 1-3 sources as reference material and ask the agent to apply the skill process, not just summarize the source.
 
 ### Create a new investor skill
 

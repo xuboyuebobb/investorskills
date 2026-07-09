@@ -2,16 +2,57 @@
 
 Recommended podcasts mapped to skills in this repo.
 
+This file is **reference material for the skills**, not a replacement for them.
+
 Every show has:
 - **Spotify**: opens Spotify search for that show (works in browser and app)
 - **Apple Podcasts**: exact show page
 - **Pod.link**: multi-platform resolver (often jumps straight into Spotify)
 
-## How To Use
+## How To Use As Skill Reference Material
 
-1. Pick a skill.
-2. Use the mapped podcasts for interviews, process, and case studies.
-3. Prefer primary guest episodes featuring the investor/framework over generic market chatter.
+Use podcasts to hear how top investors and operators think in conversation, then map that back into the skill's decision system.
+
+1. **Load the skill first**
+   - Open `skills/<name>/SKILL.md` and `skills/<name>/invest.md`.
+2. **Pick 1 mapped podcast**
+   - Prefer episodes where the actual investor, operator, or practitioner is the guest.
+   - Skip pure market-news entertainment unless you only need regime context.
+3. **Listen for operational judgment**
+   - What do they notice before others?
+   - What data do they trust or ignore?
+   - When do they size up, cut, wait, or admit they are wrong?
+4. **Convert listening into skill fuel**
+   - Turn useful moments into: signals, filters, invalidation rules, sizing notes, or canonical cases.
+   - Do not copy vibes. Copy process.
+5. **Use with an AI agent**
+   - Load the skill.
+   - Point the agent at this podcast list as reference material.
+   - Ask it to apply the skill process to a live ticker, token, startup, or portfolio question.
+
+### Good prompts
+
+```text
+Using skills/druckenmiller and the podcasts listed as reference material,
+evaluate whether this macro setup is a probe, press, hold, cut, or pass.
+```
+
+```text
+Using skills/yc-early-pmf and YC / Lenny podcasts as reference,
+diagnose whether this startup is default alive and whether PMF evidence is real.
+```
+
+### What this list is not
+
+- Not a substitute for the skill's filters and risk rules
+- Not verified performance track records
+- Not the closed-source Questflow exclusive skill set
+
+### Open source vs Questflow exclusive
+
+These open-source skills + reading/podcast references should already be highly useful for study and agent workflows.
+
+Questflow also ships **exclusive investor skills** distilled from top traders by labeling judgment across real trades: thesis, signals, entry, sizing, invalidation, and review loops. Those exclusive skills are closed source and available to paid members at [questflow.ai](https://questflow.ai).
 
 ---
 

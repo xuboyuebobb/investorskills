@@ -2,16 +2,51 @@
 
 Primary sources and classic essays mapped to skills in this repo.
 
+This file is **reference material for the skills**, not a replacement for them.
+
 Every row below has a clickable link:
 - **Free/primary**: official essay, memo, research archive, or rules page
 - **Book/product**: Amazon or official book page when free full text is not stably available
 
-## How To Use
+## How To Use As Skill Reference Material
 
-1. Pick a skill in `skills/<name>/`.
-2. Read that skill's `invest.md` first.
-3. Use this list for deeper primary sources.
-4. Prefer primary letters, memos, reports, and essays over secondary summaries.
+Use readings to sharpen a skill, not to skip the skill.
+
+1. **Load the skill first**
+   - Open `skills/<name>/SKILL.md` for when/why/how to apply it.
+   - Open `skills/<name>/invest.md` for signals, filters, sizing, risk, and playbooks.
+2. **Use this list as source material**
+   - Read the mapped essays/letters/reports to understand where the skill came from.
+   - Prefer primary sources over secondary commentary.
+3. **Feed the material back into the skill**
+   - When studying a source, extract: what they notice, what they ignore, what makes them act, what would invalidate the view.
+   - Update examples, canonical cases, or filters only when the source clearly supports it.
+4. **Use with an AI agent**
+   - Load the skill package.
+   - Attach 1-3 readings from this list as reference context.
+   - Ask the agent to apply the skill's process, not to summarize the article only.
+5. **Keep the boundary clear**
+   - Open-source skills here = public judgment frameworks distilled from public materials.
+   - Questflow exclusive skills = closed-source, trade-labeled, execution-grade systems available to paid members at [questflow.ai](https://questflow.ai).
+
+### Good prompts
+
+```text
+Using skills/livermore + these readings as reference material, evaluate AAPL.
+Do not free-style. Follow the skill process and cite which source informed each rule.
+```
+
+```text
+Using skills/marks-cycles and Howard Marks memos as reference, diagnose the current credit regime.
+Separate facts, assumptions, and judgment.
+```
+
+### What this list is not
+
+- Not financial advice
+- Not a complete bibliography
+- Not a substitute for live data, filings, or risk controls
+- Not the full Questflow proprietary skill library
 
 ---
 
