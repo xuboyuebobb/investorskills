@@ -113,6 +113,7 @@ playbooks:
     verdictOptions: Buy Point / Watchlist / Extended / Pass / Market Stand Down
     requiredSections: canslim,base,pivot,market,stop,sellRules
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - William O'Neil, How to Make Money in Stocks
@@ -236,6 +237,11 @@ Study these cases for the full stack: current earnings, annual earnings, new cat
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

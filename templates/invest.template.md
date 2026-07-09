@@ -182,6 +182,11 @@ When evaluating a new opportunity, produce:
 - <Recommended podcast with Spotify link>
 - Shared podcast list: ../../docs/podcast-list.md
 
+## YouTube
+
+- <Recommended talk or channel with YouTube link>
+- Shared YouTube list: ../../docs/youtube-list.md
+
 ## Reading List
 
 - <Primary essay, letter, memo, report, or book with link when available>

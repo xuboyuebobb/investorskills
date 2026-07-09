@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Concentrated Growth Long / Watch / Too Expensive / Growth Broken / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Public Tiger Global / Chase Coleman reporting and growth-investing case studies
@@ -175,6 +176,11 @@ Return one of: Concentrated Growth Long / Watch / Too Expensive / Growth Broken 
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - Lenny's Podcast: https://open.spotify.com/search/Lenny%27s%20Podcast/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

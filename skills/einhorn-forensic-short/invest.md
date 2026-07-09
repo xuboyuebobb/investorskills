@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Short / Long / Watch / Evidence Incomplete / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - David Einhorn speeches and letters
@@ -175,6 +176,11 @@ Return one of: Short / Long / Watch / Evidence Incomplete / Pass. Include thesis
 
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

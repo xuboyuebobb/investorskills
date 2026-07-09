@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Pessimism / Scale In / Watch / Trap / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - John Templeton biographies and investment principles
@@ -171,6 +172,11 @@ Return one of: Buy Pessimism / Scale In / Watch / Trap / Pass. Include thesis, e
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

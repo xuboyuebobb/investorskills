@@ -6,7 +6,7 @@
 
 Run these investor skills inside [Questflow](https://questflow.ai), the AI Finance Agent for financial markets.
 
-[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Reading List](docs/reading-list.md) · [Podcast List](docs/podcast-list.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
+[Investor Skill Template](templates/skill.template.md) · [Investment Schema](docs/spec.md) · [Reading List](docs/reading-list.md) · [Podcast List](docs/podcast-list.md) · [YouTube List](docs/youtube-list.md) · [Templates](templates/) · [Examples](examples/) · [Contributing](#contributing)
 
 Investor Skills is an open-source library that turns durable investing judgment into portable, structured formats. It collects how great investors think, filter opportunities, size risk, and act under uncertainty — then structures those patterns so humans can study them and AI finance agents can apply them.
 
@@ -23,9 +23,9 @@ They are tailored for Questflow's financial harness: models, skills, plugins, an
 This repo is the free public layer:
 - portable investor judgment systems
 - templates and schemas
-- [reading list](docs/reading-list.md) and [podcast list](docs/podcast-list.md) as reference material for each skill
+- [reading list](docs/reading-list.md), [podcast list](docs/podcast-list.md), and [YouTube list](docs/youtube-list.md) as reference material for each skill
 
-Use a skill first, then use readings/podcasts as source material to understand, stress-test, and enrich that skill.
+Use a skill first, then use readings/podcasts/videos as source material to understand, stress-test, and enrich that skill.
 
 ### Questflow exclusive skills
 
@@ -129,7 +129,8 @@ investorskills/
 ├── docs/
 │   ├── spec.md              # Optional investment schema specification
 │   ├── reading-list.md      # Primary sources and classic essays by skill
-│   └── podcast-list.md      # Recommended podcasts with Spotify/Apple links
+│   ├── podcast-list.md      # Recommended podcasts with Spotify/Apple links
+│   └── youtube-list.md      # Recommended YouTube talks and channels by skill
 ├── examples/
 │   └── buffett.invest.md    # Standalone investment-system example
 ├── templates/
@@ -151,13 +152,14 @@ investorskills/
 
 Copy a skill package into your agent's skills directory. The `SKILL.md` file is the entry point; any linked `invest.md` file is supporting schema.
 
-### Use readings and podcasts as skill references
+### Use readings, podcasts, and videos as skill references
 
 1. Load a skill package.
-2. Open the skill's own `Reading List` / `Podcasts` section.
+2. Open the skill's own `Reading List` / `Podcasts` / `YouTube` section.
 3. Or use the shared indexes:
    - [docs/reading-list.md](docs/reading-list.md)
    - [docs/podcast-list.md](docs/podcast-list.md)
+   - [docs/youtube-list.md](docs/youtube-list.md)
 4. Attach 1-3 sources as reference material and ask the agent to apply the skill process, not just summarize the source.
 
 ### Create a new investor skill

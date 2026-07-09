@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Asymmetric Long / Asymmetric Short / Watch / Too Early / Pass
     requiredSections: consensus,variant,evidence,structure,catalyst,carry,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Michael Lewis, The Big Short
@@ -219,6 +220,11 @@ Study these cases for primary-source work, variant perception, asymmetry, and su
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

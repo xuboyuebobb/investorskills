@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Publishable Short / Watch / Needs More Evidence / Squeeze Risk / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Hindenburg Research public reports
@@ -175,6 +176,11 @@ Return one of: Publishable Short / Watch / Needs More Evidence / Squeeze Risk / 
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

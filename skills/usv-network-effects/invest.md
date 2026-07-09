@@ -68,6 +68,7 @@ playbooks:
     verdictOptions: "Network Invest / Watch / Weak Defensibility / Commodity App / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - USV public blog and partner essays on networks and platforms
@@ -176,6 +177,11 @@ Return one of: Network Invest / Watch / Weak Defensibility / Commodity App / Pas
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - a16z Show: https://open.spotify.com/search/a16z%20Show/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

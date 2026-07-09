@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Strong Invest / Watch / Needs PMF / Founder Risk / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Sequoia public essays and partner interviews
@@ -177,6 +178,12 @@ Return one of: Strong Invest / Watch / Needs PMF / Founder Risk / Pass. Include 
 - 20VC: https://open.spotify.com/search/Twenty%20Minute%20VC/shows
 - Lenny's Podcast: https://open.spotify.com/search/Lenny%27s%20Podcast/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Sequoia Capital: https://www.youtube.com/@SequoiaCapital
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

@@ -93,6 +93,7 @@ playbooks:
     verdictOptions: Research / Paper Trade / Deploy Small / Reject / Overfit
     requiredSections: hypothesis,data,signals,validation,costs,portfolio,risk,decay
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Gregory Zuckerman, The Man Who Solved the Market
@@ -216,6 +217,11 @@ Study these cases for process design, not copyable public signals.
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

@@ -72,6 +72,7 @@ playbooks:
     verdictOptions: "Overweight / Underweight / Hedge / Neutral / Rebalance"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Ray Dalio, Principles
@@ -181,6 +182,12 @@ Return one of: Overweight / Underweight / Hedge / Neutral / Rebalance. Include t
 - Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
 - Macro Voices: https://open.spotify.com/search/Macro%20Voices/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- How the Economic Machine Works: https://www.youtube.com/watch?v=PHe0bXAIuk0
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

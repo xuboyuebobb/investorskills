@@ -95,6 +95,7 @@ playbooks:
     verdictOptions: Aggressive Buy / Probe / Wait / Avoid / Short
     requiredSections: panic,capitalStructure,backstop,recoveryValue,downside,catalyst
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Public David Tepper and Appaloosa interviews
@@ -216,6 +217,11 @@ Study these cases for capital structure, policy support, panic price, and recove
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

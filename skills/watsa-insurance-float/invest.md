@@ -68,6 +68,7 @@ playbooks:
     verdictOptions: "Own / Add On Fear / Hedge / Float Impaired / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Fairfax Financial annual letters
@@ -174,6 +175,11 @@ Return one of: Own / Add On Fear / Hedge / Float Impaired / Pass. Include thesis
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

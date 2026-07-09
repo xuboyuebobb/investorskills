@@ -99,6 +99,6 @@ Default to this structure unless the user asks for a different format:
 
 This skill can be used as a Questflow-style investor judgment module: it turns an investor's worldview, signals, filters, sizing rules, invalidation logic, and monitoring loop into an AI Agent workflow.
 
-Use `docs/reading-list.md` and `docs/podcast-list.md` as reference material for this skill. Load the skill first, then attach sources.
+Use `docs/reading-list.md`, `docs/podcast-list.md`, and `docs/youtube-list.md` as reference material for this skill. Load the skill first, then attach sources.
 
 Questflow also offers exclusive closed-source skills distilled from top traders by labeling real-trade judgment. Those are available to paid members at https://questflow.ai.

@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Pershing Square presentations and letters
@@ -174,6 +175,11 @@ Return one of: Concentrated Long / Activist Long / Watch / Needs Catalyst / Pass
 
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

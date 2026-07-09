@@ -66,6 +66,7 @@ playbooks:
     verdictOptions: "Concentrated Own / Engage / Watch / Quality Broken / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Public TCI / Chris Hohn letters and reporting
@@ -171,6 +172,11 @@ Return one of: Concentrated Own / Engage / Watch / Quality Broken / Pass. Includ
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

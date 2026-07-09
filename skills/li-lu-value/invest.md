@@ -92,6 +92,7 @@ playbooks:
     verdictOptions: Own / Watch / Too Hard / Too Expensive / Pass
     requiredSections: competence,quality,management,downside,compounding,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Li Lu public lectures and interviews
@@ -215,6 +216,11 @@ Study these cases for circle of competence, founder quality, downside protection
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

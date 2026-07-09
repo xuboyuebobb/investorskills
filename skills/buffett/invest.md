@@ -103,6 +103,7 @@ playbooks:
     verdictOptions: Buy / Watchlist / Pass / Too Hard
     requiredSections: business,moat,management,valuation,marginOfSafety,risk,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Warren Buffett shareholder letters
@@ -235,6 +236,12 @@ Study these cases for moat durability, owner earnings, management quality, and p
 - We Study Billionaires: https://open.spotify.com/search/We%20Study%20Billionaires/shows
 - Acquired: https://open.spotify.com/search/Acquired%20podcast/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Berkshire annual meetings: https://www.youtube.com/results?search_query=Berkshire+Hathaway+Annual+Meeting
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

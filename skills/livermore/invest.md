@@ -93,6 +93,7 @@ playbooks:
     verdictOptions: Enter / Wait / Hold / Add / Exit / Stand Down
     requiredSections: trend,pivot,volume,sizing,stop,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Jesse Livermore, How to Trade in Stocks
@@ -220,6 +221,11 @@ Study these cases for pattern recognition: the trade starts with market confirma
 
 - Chat With Traders: https://open.spotify.com/search/Chat%20With%20Traders/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

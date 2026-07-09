@@ -120,6 +120,7 @@ playbooks:
     verdictOptions: High-Conviction Bottleneck / Watchlist / Too Late / Dilution Risk / Meme-Only / Pass
     requiredSections: supplyChain,chokepoint,validation,valuation,dilution,rotation,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Serenity / @aleabitoreddit public X posts and long-form articles
@@ -261,6 +262,11 @@ Study these cases for supply-chain mapping, customer validation, market-cap vers
 
 - Odd Lots: https://open.spotify.com/search/Odd%20Lots%20Bloomberg/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

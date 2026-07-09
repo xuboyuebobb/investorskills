@@ -65,6 +65,7 @@ playbooks:
     verdictOptions: "Buy Basket / Add / Hold / Asset Impaired / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Walter Schloss interviews and partnership commentary
@@ -171,6 +172,11 @@ Return one of: Buy Basket / Add / Hold / Asset Impaired / Pass. Include thesis, 
 ## Podcasts
 
 - Shared podcast list with Spotify links: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 

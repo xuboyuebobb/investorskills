@@ -67,6 +67,7 @@ playbooks:
     verdictOptions: "Contrarian Invest / Too Consensus / Vision Weak / Execution Risk / Pass"
     requiredSections: thesis,evidence,risk,action,invalidation
 sources:
+  - docs/youtube-list.md
   - docs/podcast-list.md
   - docs/reading-list.md
   - Founders Fund public materials
@@ -176,6 +177,11 @@ Return one of: Contrarian Invest / Too Consensus / Vision Weak / Execution Risk 
 - Founders: https://open.spotify.com/search/Founders%20David%20Senra/shows
 - Invest Like the Best: https://open.spotify.com/search/Invest%20Like%20the%20Best/shows
 - Shared podcast list: ../../docs/podcast-list.md
+
+
+## YouTube
+
+- Shared YouTube list: ../../docs/youtube-list.md
 
 ## Reading List
 
