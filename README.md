@@ -250,6 +250,16 @@ Copy any `SKILL.md` into ChatGPT, Codex, Cursor, Claude, or another agent conver
 | [`a16z-crypto`](skills/a16z-crypto/) | a16z crypto | Web3 adoption, crypto infrastructure vs apps, open networks, and long-duration ecosystem investing |
 | [`delphi-thematic-crypto`](skills/delphi-thematic-crypto/) | Delphi Digital | Crypto thematic research, sector maps, tokenomics, narrative timing, and research-driven allocation |
 | [`placeholder-token-networks`](skills/placeholder-token-networks/) | Placeholder | Open network investing, token frameworks, network participation, and long-duration crypto network ownership |
+| [`duanyongping-benfen-value`](skills/duanyongping-benfen-value/) | 段永平 / Duan Yongping | Benfen value, good business at right price, long hold, circle of competence, owner mindset |
+| [`fengliu-reverse-weakhand`](skills/fengliu-reverse-weakhand/) | 冯柳 / Feng Liu | Weak-hand reverse investing, asymmetric risk/reward, consensus divergence, probability-based sizing |
+| [`qiuguolu-value-quality`](skills/qiuguolu-value-quality/) | 邱国鹭 / Qiu Guolu | Value-quality, industry leaders, circle of competence, simple clear thesis |
+| [`dengxiaofeng-cycle-industry`](skills/dengxiaofeng-cycle-industry/) | 邓晓峰 / Deng Xiaofeng | Cycle-aware industry investing, supply-demand dynamics, buying leaders at cycle bottoms |
+| [`danbin-longterm-compounder`](skills/danbin-longterm-compounder/) | 但斌 / Dan Bin | Long-term compounders, holding great companies through volatility, time as edge |
+| [`libei-macro-hedge`](skills/libei-macro-hedge/) | 李蓓 / Li Bei | Macro hedge, regime identification, conviction-based sizing, drawdown control |
+| [`tangnengtong-shortterm-ta`](skills/tangnengtong-shortterm-ta/) | 唐能通 / Tang Nengtong | A-share short-term TA, volume-price relationships, MA systems, breakout signals |
+| [`chenhao-limit-up`](skills/chenhao-limit-up/) | 陈浩 / Chen Hao | A-share limit-up sentiment, market emotion cycles, board strength, aggressive momentum |
+| [`zhanglei-longterm-research-value`](skills/zhanglei-longterm-research-value/) | 张磊 / Zhang Lei (Hillhouse) | Long-term research-driven value, deep diligence, great companies, active value-add |
+| [`shihanbing-macro-interest-analysis`](skills/shihanbing-macro-interest-analysis/) | 时寒冰 / Shi Hanbing | Macro interest analysis, incentive-based policy prediction, trend following from利益博弈 |
 
 ## Contributing
 
