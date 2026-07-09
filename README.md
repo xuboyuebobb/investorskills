@@ -279,14 +279,6 @@ The useful part is operational:
 
 Investor Skills extracts those decision patterns into software-shaped instructions.
 
-## Relationship to DESIGN.md
-
-[DESIGN.md](https://github.com/google-labs-code/design.md) gives AI agents a persistent understanding of a **visual identity** — colors, typography, layout, components.
-
-Investor Skills give AI finance agents a persistent understanding of an **investment judgment system** — triggers, signals, filters, analysis, sizing, risk, monitoring, and playbooks.
-
-Like DESIGN.md, the optional investment schema uses YAML tokens (machine-readable parameters) plus markdown prose (human-readable rationale). The full skill package stays plain-text, version-controllable, and agent-portable.
-
 ## License
 
 MIT
