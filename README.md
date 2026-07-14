@@ -1,4 +1,4 @@
-![Investor Skills - portable judgment systems for AI finance agents](assets/social-poster.png)
+![Investor Skills — mental models from history's greatest investors, powered by Questflow](assets/github-poster.png)
 
 # Investor Skills
 
