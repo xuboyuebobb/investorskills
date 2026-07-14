@@ -2,6 +2,9 @@
 
 # Investor Skills
 
+[![Watch Investors on YouTube](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@investors-podcast)
+[![Listen to Investors on Spotify](https://img.shields.io/badge/Listen_on_Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/4KNhgHCf0GrK4f2QfT6BGI)
+
 **Investor Skills are portable judgment systems for AI finance agents.**
 
 Run these investor skills inside [Questflow](https://questflow.ai), the AI Finance Agent for financial markets.
